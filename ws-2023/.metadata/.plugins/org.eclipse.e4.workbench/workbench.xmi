@@ -60,9 +60,10 @@
           <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
           <tags>persp.showIn:com.iscobol.plugins.screenpainter.views.IscobolStructuralView</tags>
           <tags>persp.showIn:com.iscobol.plugins.screenpainter.views.IscobolDataView</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiIWR_Ee69bsZ2yV6yZA" selectedElement="_VkqiKWR_Ee69bsZ2yV6yZA" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiIWR_Ee69bsZ2yV6yZA" selectedElement="_VkqiImR_Ee69bsZ2yV6yZA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiImR_Ee69bsZ2yV6yZA" containerData="2000" selectedElement="_VkqiI2R_Ee69bsZ2yV6yZA">
               <children xsi:type="basic:PartStack" xmi:id="_VkqiI2R_Ee69bsZ2yV6yZA" elementId="left" containerData="7500" selectedElement="_VkqiJGR_Ee69bsZ2yV6yZA">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_VkqiJGR_Ee69bsZ2yV6yZA" elementId="com.iscobol.plugins.screenpainter.views.IscobolStructuralView" ref="_VkaDcGR_Ee69bsZ2yV6yZA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:isCOBOL</tags>
@@ -83,7 +84,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiKWR_Ee69bsZ2yV6yZA" containerData="8000" selectedElement="_VkqiOWR_Ee69bsZ2yV6yZA" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiKWR_Ee69bsZ2yV6yZA" containerData="8000" selectedElement="_VkqiKmR_Ee69bsZ2yV6yZA" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiKmR_Ee69bsZ2yV6yZA" containerData="6862" selectedElement="_VkqiK2R_Ee69bsZ2yV6yZA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_VkqiK2R_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_VkRgkGR_Ee69bsZ2yV6yZA"/>
                 <children xsi:type="basic:PartStack" xmi:id="_VkqiLGR_Ee69bsZ2yV6yZA" elementId="bottom" containerData="2500" selectedElement="_VkqiLmR_Ee69bsZ2yV6yZA">
@@ -149,7 +150,6 @@
                   </children>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_VkqiPWR_Ee69bsZ2yV6yZA" elementId="bottomRight" containerData="6000" selectedElement="_VkqiPmR_Ee69bsZ2yV6yZA">
-                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_VkqiPmR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.views.PropertySheet" ref="_VkdGxGR_Ee69bsZ2yV6yZA" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -376,6 +376,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cbl&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.list&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.def&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cpy&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cl2&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element path=&quot;/screenHybrid&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;selection/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:isCOBOL</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_VsFYwGR_Ee69bsZ2yV6yZA" elementId="com.iscobol.plugins.screenpainter.views.IscobolStructuralView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -514,8 +516,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_V1fzcGR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.views.PropertySheet">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -649,7 +649,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VfkmwmR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_zFxOsGVzEe6baIsfIQvNDA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TF8g4GR_Ee69bsZ2yV6yZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Vsf8sGV1Ee6ecKmorOPzww" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TF8g4GR_Ee69bsZ2yV6yZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vfkmw2R_Ee69bsZ2yV6yZA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -677,7 +677,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VfkmymR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_zFxOvWVzEe6baIsfIQvNDA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_TF8gdWR_Ee69bsZ2yV6yZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_VsiY8GV1Ee6ecKmorOPzww" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_TF8gdWR_Ee69bsZ2yV6yZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vfkmy2R_Ee69bsZ2yV6yZA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3584,7 +3584,7 @@
   <addons xmi:id="_TDZfVWR_Ee69bsZ2yV6yZA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_TDZfVmR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_TDipMGR_Ee69bsZ2yV6yZA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_ypLZUWVzEe6baIsfIQvNDA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_TFyr8GR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_TFyr8WR_Ee69bsZ2yV6yZA" elementId="org.tigris.subversion.subclipse.commandCategory" name="SVN" description="Actions that apply when working with SVN repositories"/>
