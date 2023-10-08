@@ -250,10 +250,10 @@
          <int>3</int>
         </void>
         <void property="size">
-         <float>13.6</float>
+         <float>13.8</float>
         </void>
         <void property="sizePixels">
-         <float>136.0</float>
+         <float>138.0</float>
         </void>
         <void property="tabOrder">
          <object idref="Integer0"/>
@@ -383,6 +383,7 @@
     <void property="windowHandle">
      <string>window-handle</string>
     </void>
+    <void id="Integer1" property="cellHeight"/>
    </object>
   </void>
  </array>
@@ -662,7 +663,7 @@
            modify screen-1-pb-1 enabled false&#13;
            &#13;
            display frame upon screen-1 &#13;
-             line 8 , col 22, lines 10.5, size 14 cells&#13;
+             line 8 , col 22, lines 10.4, size 14 cells&#13;
              title &quot;Radio At Runtime&quot;&#13;
              handle frRuntime  &#13;
            &#13;

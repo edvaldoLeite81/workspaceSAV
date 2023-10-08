@@ -6,9 +6,6 @@
     <void property="linkTo">
      <string>screen-1-link-to</string>
     </void>
-    <void id="BackgroundIntensity0" property="backgroundIntensity">
-     <void id="Integer0" property="selection"/>
-    </void>
     <void property="components">
      <array class="com.iscobol.screenpainter.beans.AbstractBeanControl" length="4">
       <void index="0">
@@ -73,12 +70,15 @@
        </object>
       </void>
       <void index="1">
-       <object class="com.iscobol.screenpainter.beans.swing.SwingFrame">
+       <object class="com.iscobol.screenpainter.beans.swing.SwingFrame" id="SwingFrame0">
         <void property="column">
          <string>3.5</string>
         </void>
         <void property="columnPixels">
          <float>26.0</float>
+        </void>
+        <void id="Frame3DStyle0" property="3DStyle">
+         <void id="Integer0" property="selection"/>
         </void>
         <void property="components">
          <array class="com.iscobol.screenpainter.beans.AbstractBeanControl" length="3">
@@ -170,7 +170,7 @@
              <float>101.0</float>
             </void>
             <void property="tabOrder">
-             <object idref="Integer0"/>
+             <int>2</int>
             </void>
             <void property="title">
              <string>456</string>
@@ -250,10 +250,10 @@
          <int>3</int>
         </void>
         <void property="size">
-         <float>13.6</float>
+         <float>13.7</float>
         </void>
         <void property="sizePixels">
-         <float>136.0</float>
+         <float>137.0</float>
         </void>
         <void property="tabOrder">
          <object idref="Integer0"/>

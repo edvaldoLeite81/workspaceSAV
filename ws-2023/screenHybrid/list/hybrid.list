@@ -1,6 +1,6 @@
 *>compiler version: isCOBOL release 2023 R2 build#1105.6-20230912-36844
 *>source file name:  C:\Users\edval\OneDrive\햞ea de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\source\hybrid.cbl
-*>date generated  :  Sat Oct 07 21:50:46 BRT 2023
+*>date generated  :  Sat Oct 07 21:57:06 BRT 2023
 *>compiler options:  -dx -oe -sp=cpy;screenpgm;fdsl -esme=100 -smat -od=C:/Users/edval/OneDrive/햞ea de Trabalho/SAV WORKSPACE/ws-2023/screenHybrid/output -jj -eo=C:/Users/edval/OneDrive/햞ea de Trabalho/SAV WORKSPACE/ws-2023/screenHybrid/errs -b -cudc -cghv -d -g -lo=C:/Users/edval/OneDrive/햞ea de Trabalho/SAV WORKSPACE/ws-2023/screenHybrid/list -tasks
 *>begin {iscobol}compiler-directives                               
 *>end {iscobol}compiler-directives                                 
@@ -1122,7 +1122,7 @@ screen section.
    03 screen-1-fr-1 Frame                                        
       line 8.0                                                   
       column 3.5                                                 
-      size 13.8 cells                                            
+      size 13.6 cells                                            
       lines 16.7 cells                                           
       id 2                                                       
       title "Radio Fixed"                                        
@@ -1454,7 +1454,7 @@ buildFrameAndRadios.
     modify screen-1-pb-1 enabled false                           
                                                                  
     display frame upon screen-1                                  
-      line 8 , col 22, lines 10.4, size 14 cells                 
+      line 8 , col 22, lines 10.5, size 14 cells                 
       title "Radio At Runtime"                                   
       handle frRuntime                                           
                                                                  

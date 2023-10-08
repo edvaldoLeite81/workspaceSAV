@@ -49,7 +49,7 @@
            modify screen-1-pb-1 enabled false
            
            display frame upon screen-1 
-             line 8 , col 22, lines 10.4, size 14 cells
+             line 8 , col 22, lines 10.5, size 14 cells
              title "Radio At Runtime"
              handle frRuntime  
            
