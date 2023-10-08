@@ -15,3 +15,5 @@
        77 wrk-rbNumber pic 9(3).
        77 wrk-rbLetter pic x(3).
        77 rbRuntime0 handle of radio-button.
+       77 Cambria-12v0 handle of font.
+       77 Cambria-18v0 handle of font.

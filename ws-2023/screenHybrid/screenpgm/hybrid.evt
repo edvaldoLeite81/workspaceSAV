@@ -48,9 +48,6 @@
        buildFrameAndRadios.
            modify screen-1-pb-1 enabled false
            
-      *     inquire screen-1-pb-2 id in control-id 
-      *     move 4 to accept-control
-           
            display frame upon screen-1 
              line 8 , col 22, lines 10.4, size 14 cells
              title "Radio At Runtime"

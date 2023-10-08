@@ -41,10 +41,10 @@
          <int>3</int>
         </void>
         <void property="size">
-         <float>14.5</float>
+         <float>32.1</float>
         </void>
         <void property="sizePixels">
-         <float>145.0</float>
+         <float>321.0</float>
         </void>
         <void property="tabOrder">
          <int>1</int>
@@ -77,6 +77,9 @@
             </void>
             <void property="group">
              <int>1</int>
+            </void>
+            <void property="groupValue">
+             <string></string>
             </void>
             <void property="id">
              <int>4</int>
@@ -229,10 +232,10 @@
          <int>3</int>
         </void>
         <void property="size">
-         <float>13.6</float>
+         <float>14.0</float>
         </void>
         <void property="sizePixels">
-         <float>136.0</float>
+         <float>140.0</float>
         </void>
         <void property="tabOrder">
          <object idref="Integer0"/>
@@ -275,10 +278,10 @@
          <int>3</int>
         </void>
         <void property="size">
-         <float>13.6</float>
+         <float>14.0</float>
         </void>
         <void property="sizePixels">
-         <float>136.0</float>
+         <float>140.0</float>
         </void>
         <void property="tabOrder">
          <int>3</int>
@@ -291,10 +294,10 @@
       <void index="3">
        <object class="com.iscobol.screenpainter.beans.swing.SwingPushButton">
         <void property="column">
-         <string>22.0</string>
+         <string>21.6</string>
         </void>
         <void property="columnPixels">
-         <float>211.0</float>
+         <float>207.0</float>
         </void>
         <void property="exceptionValue">
          <int>27</int>
@@ -303,10 +306,10 @@
          <int>7</int>
         </void>
         <void property="line">
-         <string>39.0</string>
+         <string>38.9</string>
         </void>
         <void property="linePixels">
-         <float>381.0</float>
+         <float>380.0</float>
         </void>
         <void property="lines">
          <float>3.2</float>
@@ -321,10 +324,10 @@
          <int>3</int>
         </void>
         <void property="size">
-         <float>13.6</float>
+         <float>14.0</float>
         </void>
         <void property="sizePixels">
-         <float>136.0</float>
+         <float>140.0</float>
         </void>
         <void property="tabOrder">
          <int>4</int>
@@ -365,7 +368,7 @@
    </object>
   </void>
  </array>
- <array class="com.iscobol.screenpainter.beans.types.VariableType" length="8">
+ <array class="com.iscobol.screenpainter.beans.types.VariableType" length="9">
   <void index="0">
    <object class="com.iscobol.screenpainter.beans.types.VariableType" id="VariableType0">
     <void id="SettingTreeItemArray0" property="children"/>
@@ -515,11 +518,33 @@
     <void property="children">
      <object idref="SettingTreeItemArray7"/>
     </void>
+    <void property="level">
+     <string>77</string>
+    </void>
     <void property="name">
      <string>wrk-rbLetter</string>
     </void>
     <void property="picture">
      <string>x(3)</string>
+    </void>
+   </object>
+  </void>
+  <void index="8">
+   <object class="com.iscobol.screenpainter.beans.types.VariableType" id="VariableType8">
+    <void id="SettingTreeItemArray8" property="children"/>
+    <void property="children">
+     <object idref="SettingTreeItemArray8"/>
+    </void>
+    <void property="level">
+     <string>77</string>
+    </void>
+    <void property="name">
+     <string>rbRuntime0</string>
+    </void>
+    <void property="usage">
+     <object class="com.iscobol.screenpainter.beans.types.VariableUsage">
+      <int>36</int>
+     </object>
     </void>
    </object>
   </void>
@@ -552,6 +577,7 @@
                before time 200 &#13;
                &#13;
              when key-status = 1003&#13;
+               destroy rbRuntime0&#13;
                move &quot;ABC&quot; to wrk-rbLetter&#13;
                display message &quot;Pressionado Radio-Button: &quot; wrk-rbLetter &#13;
                before time 200&#13;
@@ -576,24 +602,31 @@
            display frame upon screen-1 &#13;
              line 8 , col 22, lines 10.4, size 14 cells&#13;
              title &quot;Radio At Runtime&quot;&#13;
-             handle frRuntime      &#13;
-                                &#13;
+             handle frRuntime  &#13;
+           &#13;
            display radio-button upon screen-1 &#13;
-             line 13 , col 23, size 10 cells&#13;
+             line 13 , col 23, size 5 cells&#13;
+             title &quot;ABC&quot;&#13;
+             exception-value 1003&#13;
+             group 2&#13;
+             handle rbRuntime0&#13;
+            &#13;
+           display radio-button upon screen-1 &#13;
+             line 13 , col 23, size 5 cells&#13;
              title &quot;ABC&quot;&#13;
              exception-value 1003&#13;
              group 2&#13;
              handle rbRuntime1&#13;
                  &#13;
            display radio-button upon screen-1 &#13;
-             line 17 , col 23, size 10 cells&#13;
+             line 17 , col 23, size 5 cells&#13;
              title &quot;DEF&quot;&#13;
              exception-value 1004&#13;
              group 2&#13;
              handle rbRuntime2&#13;
                    &#13;
            display radio-button upon screen-1 &#13;
-             line 21 , col 23, size 10 cells&#13;
+             line 21 , col 23, size 5 cells&#13;
              title &quot;GHI&quot;&#13;
              exception-value 1005&#13;
              group 2&#13;
@@ -601,7 +634,7 @@
                    &#13;
            display push-button  upon screen-1&#13;
              line 29.1 , col 22, lines 1.8, size 14 cells&#13;
-             title &quot;Destroy&quot; &#13;
+             title &quot;Deconstruct&quot; &#13;
              exception-value 1010&#13;
              handle pbDestroy&#13;
            .&#13;
@@ -611,6 +644,7 @@
            modify screen-1-pb-1 enabled true&#13;
            destroy pbDestroy&#13;
            destroy frRuntime&#13;
+           destroy rbRuntime0&#13;
            destroy rbRuntime1&#13;
            destroy rbRuntime2&#13;
            destroy rbRuntime3&#13;

@@ -78,6 +78,9 @@
             <void property="group">
              <int>1</int>
             </void>
+            <void property="groupValue">
+             <string></string>
+            </void>
             <void property="id">
              <int>4</int>
             </void>
@@ -365,7 +368,7 @@
    </object>
   </void>
  </array>
- <array class="com.iscobol.screenpainter.beans.types.VariableType" length="8">
+ <array class="com.iscobol.screenpainter.beans.types.VariableType" length="9">
   <void index="0">
    <object class="com.iscobol.screenpainter.beans.types.VariableType" id="VariableType0">
     <void id="SettingTreeItemArray0" property="children"/>
@@ -515,11 +518,33 @@
     <void property="children">
      <object idref="SettingTreeItemArray7"/>
     </void>
+    <void property="level">
+     <string>77</string>
+    </void>
     <void property="name">
      <string>wrk-rbLetter</string>
     </void>
     <void property="picture">
      <string>x(3)</string>
+    </void>
+   </object>
+  </void>
+  <void index="8">
+   <object class="com.iscobol.screenpainter.beans.types.VariableType" id="VariableType8">
+    <void id="SettingTreeItemArray8" property="children"/>
+    <void property="children">
+     <object idref="SettingTreeItemArray8"/>
+    </void>
+    <void property="level">
+     <string>77</string>
+    </void>
+    <void property="name">
+     <string>rbRuntime0</string>
+    </void>
+    <void property="usage">
+     <object class="com.iscobol.screenpainter.beans.types.VariableUsage">
+      <int>36</int>
+     </object>
     </void>
    </object>
   </void>
@@ -552,6 +577,7 @@
                before time 200 &#13;
                &#13;
              when key-status = 1003&#13;
+               destroy rbRuntime0&#13;
                move &quot;ABC&quot; to wrk-rbLetter&#13;
                display message &quot;Pressionado Radio-Button: &quot; wrk-rbLetter &#13;
                before time 200&#13;
@@ -573,32 +599,37 @@
        buildFrameAndRadios.&#13;
            modify screen-1-pb-1 enabled false&#13;
            &#13;
+      *     inquire screen-1-pb-2 id in control-id &#13;
+      *     move 4 to accept-control&#13;
+           &#13;
            display frame upon screen-1 &#13;
              line 8 , col 22, lines 10.4, size 14 cells&#13;
              title &quot;Radio At Runtime&quot;&#13;
-             handle frRuntime&#13;
+             handle frRuntime  &#13;
+           &#13;
+           display radio-button upon screen-1 &#13;
+             line 13 , col 23, size 5 cells&#13;
+             title &quot;ABC&quot;&#13;
+             exception-value 1003&#13;
+             group 2&#13;
+             handle rbRuntime0&#13;
             &#13;
            display radio-button upon screen-1 &#13;
-             line 13, col 23, size 10 cells&#13;
-             group 2&#13;
-             enabled false      &#13;
-                                &#13;
-           display radio-button upon screen-1 &#13;
-             line 13 , col 23, size 10 cells&#13;
+             line 13 , col 23, size 5 cells&#13;
              title &quot;ABC&quot;&#13;
              exception-value 1003&#13;
              group 2&#13;
              handle rbRuntime1&#13;
                  &#13;
            display radio-button upon screen-1 &#13;
-             line 17 , col 23, size 10 cells&#13;
+             line 17 , col 23, size 5 cells&#13;
              title &quot;DEF&quot;&#13;
              exception-value 1004&#13;
              group 2&#13;
              handle rbRuntime2&#13;
                    &#13;
            display radio-button upon screen-1 &#13;
-             line 21 , col 23, size 10 cells&#13;
+             line 21 , col 23, size 5 cells&#13;
              title &quot;GHI&quot;&#13;
              exception-value 1005&#13;
              group 2&#13;
@@ -606,7 +637,7 @@
                    &#13;
            display push-button  upon screen-1&#13;
              line 29.1 , col 22, lines 1.8, size 14 cells&#13;
-             title &quot;Destroy&quot; &#13;
+             title &quot;Deconstruct&quot; &#13;
              exception-value 1010&#13;
              handle pbDestroy&#13;
            .&#13;
@@ -616,6 +647,7 @@
            modify screen-1-pb-1 enabled true&#13;
            destroy pbDestroy&#13;
            destroy frRuntime&#13;
+           destroy rbRuntime0&#13;
            destroy rbRuntime1&#13;
            destroy rbRuntime2&#13;
            destroy rbRuntime3&#13;

@@ -2,17 +2,19 @@
        01 screen-1
        .
           03 screen-1-la-1 Label
-             line 2.6
+             line 1.4
              column 3.5
-             size 14.5 cells 
-             lines 2.7 cells 
+             size 32.1 cells 
+             lines 4.2 cells 
+             foreground-color rgb x#808080
+             font Cambria-18v0
              id 1
              title "Hybrid Screen"
              .
           03 screen-1-fr-1 Frame
              line 8.0
              column 3.5
-             size 13.6 cells 
+             size 13.8 cells 
              lines 16.7 cells 
              id 2
              title "Radio Fixed"
@@ -56,16 +58,16 @@
              exception-value 999
              line 29.2
              column 3.5
-             size 13.6 cells 
+             size 14.0 cells 
              lines 3.6 cells 
              id 3
              title "Radio At Runtime"
              .
           03 screen-1-pb-2 Push-Button
              exception-value 27
-             line 39.0
-             column 22.0
-             size 13.6 cells 
+             line 38.9
+             column 21.6
+             size 14.0 cells 
              lines 3.2 cells 
              id 7
              title "Finish"

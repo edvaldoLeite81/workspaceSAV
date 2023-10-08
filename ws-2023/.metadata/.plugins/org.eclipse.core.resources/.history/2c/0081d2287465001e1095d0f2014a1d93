@@ -6,9 +6,6 @@
     <void property="linkTo">
      <string>screen-1-link-to</string>
     </void>
-    <void id="BackgroundIntensity0" property="backgroundIntensity">
-     <void id="Integer0" property="selection"/>
-    </void>
     <void property="components">
      <array class="com.iscobol.screenpainter.beans.AbstractBeanControl" length="4">
       <void index="0">
@@ -55,12 +52,15 @@
        </object>
       </void>
       <void index="1">
-       <object class="com.iscobol.screenpainter.beans.swing.SwingFrame">
+       <object class="com.iscobol.screenpainter.beans.swing.SwingFrame" id="SwingFrame0">
         <void property="column">
          <string>3.5</string>
         </void>
         <void property="columnPixels">
          <float>26.0</float>
+        </void>
+        <void id="Frame3DStyle0" property="3DStyle">
+         <void id="Integer0" property="selection"/>
         </void>
         <void property="components">
          <array class="com.iscobol.screenpainter.beans.AbstractBeanControl" length="3">
@@ -77,6 +77,9 @@
             </void>
             <void property="group">
              <int>1</int>
+            </void>
+            <void property="groupValue">
+             <string></string>
             </void>
             <void property="id">
              <int>4</int>
@@ -149,7 +152,7 @@
              <float>101.0</float>
             </void>
             <void property="tabOrder">
-             <object idref="Integer0"/>
+             <int>2</int>
             </void>
             <void property="title">
              <string>456</string>
@@ -229,10 +232,10 @@
          <int>3</int>
         </void>
         <void property="size">
-         <float>13.6</float>
+         <float>14.0</float>
         </void>
         <void property="sizePixels">
-         <float>136.0</float>
+         <float>140.0</float>
         </void>
         <void property="tabOrder">
          <object idref="Integer0"/>
@@ -365,7 +368,7 @@
    </object>
   </void>
  </array>
- <array class="com.iscobol.screenpainter.beans.types.VariableType" length="8">
+ <array class="com.iscobol.screenpainter.beans.types.VariableType" length="9">
   <void index="0">
    <object class="com.iscobol.screenpainter.beans.types.VariableType" id="VariableType0">
     <void id="SettingTreeItemArray0" property="children"/>
@@ -515,11 +518,33 @@
     <void property="children">
      <object idref="SettingTreeItemArray7"/>
     </void>
+    <void property="level">
+     <string>77</string>
+    </void>
     <void property="name">
      <string>wrk-rbLetter</string>
     </void>
     <void property="picture">
      <string>x(3)</string>
+    </void>
+   </object>
+  </void>
+  <void index="8">
+   <object class="com.iscobol.screenpainter.beans.types.VariableType" id="VariableType8">
+    <void id="SettingTreeItemArray8" property="children"/>
+    <void property="children">
+     <object idref="SettingTreeItemArray8"/>
+    </void>
+    <void property="level">
+     <string>77</string>
+    </void>
+    <void property="name">
+     <string>rbRuntime0</string>
+    </void>
+    <void property="usage">
+     <object class="com.iscobol.screenpainter.beans.types.VariableUsage">
+      <int>36</int>
+     </object>
     </void>
    </object>
   </void>
@@ -552,6 +577,7 @@
                before time 200 &#13;
                &#13;
              when key-status = 1003&#13;
+               destroy rbRuntime0&#13;
                move &quot;ABC&quot; to wrk-rbLetter&#13;
                display message &quot;Pressionado Radio-Button: &quot; wrk-rbLetter &#13;
                before time 200&#13;
@@ -576,30 +602,31 @@
            display frame upon screen-1 &#13;
              line 8 , col 22, lines 10.4, size 14 cells&#13;
              title &quot;Radio At Runtime&quot;&#13;
-             handle frRuntime&#13;
+             handle frRuntime  &#13;
+           &#13;
+           display radio-button upon screen-1 &#13;
+             line 13 , col 23, size 5 cells&#13;
+             title &quot;ABC&quot;&#13;
+             exception-value 1003&#13;
+             group 2&#13;
+             handle rbRuntime0&#13;
             &#13;
            display radio-button upon screen-1 &#13;
-             line 13, col 23, size 10 cells&#13;
-             group 2&#13;
-             title &quot;ABC&quot;&#13;
-             enabled false      &#13;
-                                &#13;
-           display radio-button upon screen-1 &#13;
-             line 13 , col 23, size 10 cells&#13;
+             line 13 , col 23, size 5 cells&#13;
              title &quot;ABC&quot;&#13;
              exception-value 1003&#13;
              group 2&#13;
              handle rbRuntime1&#13;
                  &#13;
            display radio-button upon screen-1 &#13;
-             line 17 , col 23, size 10 cells&#13;
+             line 17 , col 23, size 5 cells&#13;
              title &quot;DEF&quot;&#13;
              exception-value 1004&#13;
              group 2&#13;
              handle rbRuntime2&#13;
                    &#13;
            display radio-button upon screen-1 &#13;
-             line 21 , col 23, size 10 cells&#13;
+             line 21 , col 23, size 5 cells&#13;
              title &quot;GHI&quot;&#13;
              exception-value 1005&#13;
              group 2&#13;
@@ -607,7 +634,7 @@
                    &#13;
            display push-button  upon screen-1&#13;
              line 29.1 , col 22, lines 1.8, size 14 cells&#13;
-             title &quot;Destroy&quot; &#13;
+             title &quot;Deconstruct&quot; &#13;
              exception-value 1010&#13;
              handle pbDestroy&#13;
            .&#13;
@@ -617,6 +644,7 @@
            modify screen-1-pb-1 enabled true&#13;
            destroy pbDestroy&#13;
            destroy frRuntime&#13;
+           destroy rbRuntime0&#13;
            destroy rbRuntime1&#13;
            destroy rbRuntime2&#13;
            destroy rbRuntime3&#13;

@@ -1,6 +1,6 @@
 *>compiler version: isCOBOL release 2023 R2 build#1105.6-20230912-36844
 *>source file name:  C:\Users\edval\OneDrive\햞ea de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\source\hybrid.cbl
-*>date generated  :  Sat Oct 07 18:08:43 BRT 2023
+*>date generated  :  Sat Oct 07 21:50:46 BRT 2023
 *>compiler options:  -dx -oe -sp=cpy;screenpgm;fdsl -esme=100 -smat -od=C:/Users/edval/OneDrive/햞ea de Trabalho/SAV WORKSPACE/ws-2023/screenHybrid/output -jj -eo=C:/Users/edval/OneDrive/햞ea de Trabalho/SAV WORKSPACE/ws-2023/screenHybrid/errs -b -cudc -cghv -d -g -lo=C:/Users/edval/OneDrive/햞ea de Trabalho/SAV WORKSPACE/ws-2023/screenHybrid/list -tasks
 *>begin {iscobol}compiler-directives                               
 *>end {iscobol}compiler-directives                                 
@@ -1089,6 +1089,8 @@ working-storage section.
 77 wrk-rbNumber pic 9(3).                                        
 77 wrk-rbLetter pic x(3).                                        
 77 rbRuntime0 handle of radio-button.                            
+77 Cambria-12v0 handle of font.                                  
+77 Cambria-18v0 handle of font.                                  
 *>^^^-> file: C:\Users\edval\OneDrive\햞ea de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\screenpgm\hybrid.wrk
 *>end {iscobol}copy-working                                        
 *>begin {iscobol}external-definitions                              
@@ -1108,17 +1110,19 @@ screen section.
 01 screen-1                                                      
 .                                                                
    03 screen-1-la-1 Label                                        
-      line 2.6                                                   
+      line 1.4                                                   
       column 3.5                                                 
-      size 14.5 cells                                            
-      lines 2.7 cells                                            
+      size 32.1 cells                                            
+      lines 4.2 cells                                            
+      foreground-color rgb 8421504                              
+      font Cambria-18v0                                          
       id 1                                                       
       title "Hybrid Screen"                                      
       .                                                          
    03 screen-1-fr-1 Frame                                        
       line 8.0                                                   
       column 3.5                                                 
-      size 13.6 cells                                            
+      size 13.8 cells                                            
       lines 16.7 cells                                           
       id 2                                                       
       title "Radio Fixed"                                        
@@ -1162,16 +1166,16 @@ screen section.
       exception-value 999                                        
       line 29.2                                                  
       column 3.5                                                 
-      size 13.6 cells                                            
+      size 14.0 cells                                            
       lines 3.6 cells                                            
       id 3                                                       
       title "Radio At Runtime"                                   
       .                                                          
    03 screen-1-pb-2 Push-Button                                  
       exception-value 27                                         
-      line 39.0                                                  
-      column 22.0                                                
-      size 13.6 cells                                            
+      line 38.9                                                  
+      column 21.6                                                
+      size 14.0 cells                                            
       lines 3.2 cells                                            
       id 7                                                       
       title "Finish"                                             
@@ -1334,9 +1338,23 @@ is-message-box.
 is-initial-routine.                                              
     accept system-information from system-info.                  
     accept terminal-abilities from terminal-info.                
+    perform is-load-fonts.                                       
+is-load-fonts.                                                   
+    initialize wfont-data cambria-18v0.                          
+    move 18 to wfont-size.                                       
+    move "Cambria" to wfont-name.                                
+    set wfont-bold to false.                                     
+    set wfont-italic to false.                                   
+    set wfont-underline to false.                                
+    set wfont-strikeout to false.                                
+    set wfont-fixed-pitch to false.                              
+    call "w$font" using wfont-get-font cambria-18v0 wfont-data.  
 is-exit-rtn.                                                     
+    perform is-destroy-fonts.                                    
     exit program.                                                
     stop run.                                                    
+is-destroy-fonts.                                                
+    destroy cambria-18v0.                                        
 is-screen-1-routine.                                             
     perform is-screen-1-scrn                                     
     perform is-screen-1-proc.                                    
@@ -1434,9 +1452,6 @@ screen-1-link-to.
 *>>construction of frame and radio buttons                         
 buildFrameAndRadios.                                             
     modify screen-1-pb-1 enabled false                           
-                                                                 
-*>     inquire screen-1-pb-2 id in control-id                      
-*>     move 4 to accept-control                                    
                                                                  
     display frame upon screen-1                                  
       line 8 , col 22, lines 10.4, size 14 cells                 
