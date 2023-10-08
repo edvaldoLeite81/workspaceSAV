@@ -1,0 +1,91 @@
+      *CRECX1.scr is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\savReport\screen\CRECX1.isp
+       01 screen-1
+       .
+          03 screen-1-pb-2 Push-Button
+             exception-value 1001
+             line 5.7
+             column 33.5
+             size 17.6 cells 
+             lines 3.2 cells 
+             visible 0
+             id 2
+             title "sair"
+             .
+          03 screen-1-pb-1 Push-Button
+             exception-value 1000
+             line 26.0
+             column 25.5
+             size 24.2 cells 
+             lines 3.2 cells 
+             visible 0
+             id 1
+             title "Teste com Preview"
+             .
+          03 screen-1-pb-3 Push-Button
+             exception-value 1002
+             line 29.1
+             column 25.5
+             size 24.2 cells 
+             lines 3.2 cells 
+             visible 0
+             id 3
+             title "Teste Impressão Default"
+             .
+          03 screen-1-pb-pdf Push-Button
+             exception-value 1003
+             line 26.0
+             column 1.3
+             size 24.2 cells 
+             lines 3.2 cells 
+             visible 0
+             id 4
+             title "Teste PDF"
+             .
+          03 screen-1-pb-html Push-Button
+             exception-value 1004
+             line 29.1
+             column 1.3
+             size 24.2 cells 
+             lines 3.2 cells 
+             visible 0
+             id 5
+             title "Teste HTML - Print to file"
+             .
+          03 screen-1-pb-8 Push-Button
+             exception-value 1005
+             line 32.2
+             column 25.5
+             size 24.2 cells 
+             lines 3.2 cells 
+             visible 0
+             id 8
+             title "Teste Impressao Select"
+             .
+          03 screen-1-pb-4 Push-Button
+             exception-value 1012
+             line 32.2
+             column 1.3
+             size 24.2 cells 
+             lines 3.2 cells 
+             visible 0
+             id 6
+             title "Teste Impressão em L01"
+             .
+          03 screen-1-la-1 Label
+             line 9.7
+             column 6.2
+             size 22.9 cells 
+             lines 3.8 cells 
+             font SansSerif-14v0
+             id 7
+             title "Aguarde!!"
+             .
+          03 screen-1-la-2 Label
+             line 14.3
+             column 1.8
+             size 38.9 cells 
+             lines 3.9 cells 
+             font SansSerif-14v0
+             id 9
+             title "Gerando o contrato ..."
+             .

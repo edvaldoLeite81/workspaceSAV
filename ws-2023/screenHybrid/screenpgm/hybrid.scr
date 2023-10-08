@@ -1,0 +1,72 @@
+      *hybrid.scr is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\screen\hybrid.isp
+       01 screen-1
+       .
+          03 screen-1-la-1 Label
+             line 2.6
+             column 3.5
+             size 14.5 cells 
+             lines 2.7 cells 
+             id 1
+             title "Hybrid Screen"
+             .
+          03 screen-1-fr-1 Frame
+             line 8.0
+             column 3.5
+             size 13.6 cells 
+             lines 16.7 cells 
+             id 2
+             title "Radio Fixed"
+             .
+          03 screen-1-rb-1 Radio-Button
+             exception-value 1000
+             line 12.5
+             column 4.5
+             size 11.6 cells 
+             lines 2.0 cells 
+             id 4
+             title "123"
+             group 1
+             value "0"
+             .
+          03 screen-1-rb-2 Radio-Button
+             exception-value 1001
+             line 16.7
+             column 4.5
+             size 10.1 cells 
+             lines 2.0 cells 
+             id 5
+             title "456"
+             group 1
+             group-value "0"
+             value "0"
+             .
+          03 screen-1-rb-3 Radio-Button
+             exception-value 1002
+             line 21.1
+             column 4.5
+             size 8.1 cells 
+             lines 1.8 cells 
+             id 6
+             title "789"
+             group 1
+             group-value "0"
+             value "0"
+             .
+          03 screen-1-pb-1 Push-Button
+             exception-value 999
+             line 29.2
+             column 3.5
+             size 13.6 cells 
+             lines 3.6 cells 
+             id 3
+             title "Radio At Runtime"
+             .
+          03 screen-1-pb-2 Push-Button
+             exception-value 27
+             line 39.0
+             column 22.0
+             size 13.6 cells 
+             lines 3.2 cells 
+             id 7
+             title "Finish"
+             .

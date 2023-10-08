@@ -1,0 +1,211 @@
+      *CRECX1.evt is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2022\savReport\screen\CRECX1.isp
+      *start event editor code
+       screen-1-bef-create.
+           .
+           
+       screen-1-aft-routine.
+           .
+           
+       Cria-Diretorio-Local.
+           move "C:\PortalSav" to t-err
+           call client "CBL_CREATE_DIR" using t-err
+           .
+
+       screen-1-aft-init-data.
+           call "C$GETPID" giving process-id
+           perform Cria-Diretorio-Local
+           move 1 to WS-G01VIA 
+           perform screen-1-visible
+           .
+
+       screen-1-visible.
+           modify window-handle visible true
+           modify screen-1-pb-1 visible true
+           modify screen-1-pb-2 visible true
+           modify screen-1-pb-3 visible true
+           modify screen-1-pb-4 visible true
+           modify screen-1-pb-pdf visible true
+           modify screen-1-pb-html visible true
+           .
+           
+24033l set-log-environment.
+           call "C$SETENV" using "logfile", log-file-name
+           call "C$SETENV" using "tracelevel", 3
+      *    call "C$SETENV" using "tracelevel", 1
+           .
+
+24033l unset-log-environment.
+           call "C$SETENV" using "tracelevel", 0
+           .
+
+24033l SHOW-EXCEPTION-VALUES.       
+           SET t-err to EXCEPTION-OBJECT:>getMessage()
+           move spaces to sv-msgaux
+           perform set-log-environment
+           if  sv-msgaux not = spaces
+               call "C$WRITELOG" using sv-msgaux
+           end-if             
+           if  t-err not = nulls and spaces
+               call "C$WRITELOG" using "Mensagem de exceção:"
+               call "C$WRITELOG" using t-err 
+           end-if
+           perform unset-log-environment
+           .
+
+       screen-1-set-printer.
+           initialize winprint-selection
+      *    set winprint-name to "Microsoft XPS Document Writer"
+           set winprint-name to G03MEN
+           call "win$printer" using winprint-set-printer
+                                    winprint-selection 
+           .
+
+       screen-1-name-print.
+           move spaces to g03nom G03MEN  
+           string "local" g03num
+                  delimited by size
+             into g03nom
+
+           call client "C$GETENV" using G03NOM G03MEN
+           if  G03MEN = spaces
+               call "C$GETENV" using G03NOM G03MEN
+           end-if
+           .
+           
+       screen-1-pb-1-link-to.
+           move zeros to wrk-count
+           perform is-report-1-preview
+           .
+
+       screen-1-pb-3-link-to.
+           move zeros to wrk-count
+           perform is-report-1-print
+           display message box 
+               "Relatorio enviado para impressora default"
+           .
+
+       screen-1-pb-4-link-to.
+           move "L01"  to g03imp
+           perform screen-1-name-print
+
+           if  G03MEN = spaces
+               perform screen-1-pb-8-link-to
+           else
+               initialize winprint-selection
+      *        set winprint-name to "Microsoft XPS Document Writer"
+               set winprint-name to G03MEN
+               call "win$printer" using winprint-set-printer
+                                        winprint-selection 
+               perform is-report-1-print
+           end-if
+           .
+
+       screen-1-pb-pdf-link-to.
+           move zeros to wrk-count
+           perform is-report-1-print-pdf
+           display message box "veja o relatorio contrato.html"
+           .
+       screen-1-pb-html-link-to.
+           move zeros to wrk-count
+           perform is-report-1-print-tofile
+           display message box "veja o relatorio contrato.html"
+           .
+       screen-1-pb-8-link-to.
+           move zeros to wrk-count
+           perform is-report-1-setup-print
+           .
+
+       report-1-bef-print.
+           .
+           
+       report-1-aft-print.
+           .
+
+       report-load-fontes.
+      *>   vi isto no manual do iscobol
+           set wfdevice-win-printer to true
+
+           initialize wfont-data 
+           move 12 to wfont-size.                                       
+           move "Arial-Narrow" to wfont-name.                                  
+           set wfont-bold to false.                                     
+           set wfont-italic to false.                                   
+           set wfont-underline to false.                               
+           set wfont-strikeout to false.                                
+           set wfont-fixed-pitch to false.                              
+
+           initialize Arial-Narrow-12v0                            
+           call client "w$font" 
+             using wfont-get-font Arial-Narrow-12v0 wfont-data  
+
+           initialize wfont-data 
+           move 12 to wfont-size.                                       
+           move "Arial-Narrow" to wfont-name.                                  
+           set wfont-bold to true.                                     
+           set wfont-italic to false.                                   
+           set wfont-underline to false.                               
+           set wfont-strikeout to false.                                
+           set wfont-fixed-pitch to false.                              
+
+           initialize Arial-Narrow-12v0-b                            
+           call client "w$font" 
+             using wfont-get-font Arial-Narrow-12v0-b wfont-data. 
+           .
+
+       report-1-bef-do-print.
+           perform report-load-fontes
+           move 1 to wrk-count
+           perform montar-campos-teste
+           move 1 to report-1-doprintrtn-loop 
+           .
+
+       report-1-aft-do-print.
+           perform montar-imagem
+           move 0 to report-1-doprintrtn-loop
+           .
+           
+       montar-imagem.
+           move "/u/sav/logo/LogoDitenRet.jpg" to img-name
+           
+           initialize print-buf to default.
+           move ' <div style="position:absolute; top:04; left:07"> '
+                 to print-buf
+           write printf-r from print-buf after advancing 1 line. 
+      
+           initialize printf-r print-buf to default.
+           string '<img src="' img-name '" width="135" height="85";>'
+                  '</img></div>' delimited by size into print-buf
+           write printf-r from print-buf after advancing 1 line.
+           initialize printf-r print-buf to default
+           .
+
+       montar-campos-teste.
+           move 999999 to r-ef-crenum 
+           move 999   to r-ef-creloj
+           move 1234567890 to r-ef-credoc
+
+           move "999999 xxxxxxxxx1xxxxxxxxx2xxxxxxxxx3xxxxxxxxx4" 
+             to r-ef-clinom r-ef-avanom  
+           move "xxxxxxxxx1xxxxxxxxx2xxxxxxxxx3xxxxxxxxx4" 
+             to r-ef-clicmp r-ef-clibai r-ef-cliend
+                r-ef-avacid r-ef-clicid
+           move "1234567890123456789012345" to r-ef-vend 
+           move "xxxxxxxxx0xxxxxxxxx1xxxxxxxxx2xxxxxxxxx3xx" to r-ef-ext 
+           
+           move "XX" to r-ef-cliuf r-ef-avauf
+           move "11122233345" to r-ef-clicpf r-ef-avacpf
+           
+           move "São Paulo, 22 de junho de 2021" to r-ef-local
+
+           move 1000 to r-ef-vtn
+           move 150 to r-ef-vte
+           move 850 to r-ef-vtf
+           move 12 to r-ef-qtp
+           move 01062021 to r-ef-dtp 
+           move 30092021 to r-ef-dtu
+           .
+           
+
+
+
+      *end event editor code

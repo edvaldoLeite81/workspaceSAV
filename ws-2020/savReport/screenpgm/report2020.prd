@@ -1,0 +1,51 @@
+      *report2020.prd is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2020\savReport\screen\report2020.isp
+       is-initial-routine.
+           accept system-information from system-info.
+           accept terminal-abilities from terminal-info.
+       is-exit-rtn.
+           exit program.
+           stop run.
+       is-screen-1-routine.
+           perform is-screen-1-scrn
+           perform is-screen-1-proc.
+       is-screen-1-scrn.
+           perform is-screen-1-create
+           perform is-screen-1-init-data.
+       is-screen-1-create.
+           display standard window background-low
+              screen line 41
+              screen column 91
+              size 64.0
+              lines 48.0
+              cell width 10
+              cell height 10
+              label-offset 20
+              color 257
+              modeless
+              title-bar
+              no wrap
+              title "Screen"
+              handle window-handle
+           .
+           display screen-1.
+       is-screen-1-init-data.
+       is-screen-1-proc.
+           perform until exit-pushed
+              accept omitted on exception 
+                 perform is-screen-1-evaluate-func
+              end-accept
+           end-perform.
+           destroy window-handle.
+           initialize key-status.
+       is-screen-1-evaluate-func.
+           evaluate true
+           when exit-pushed
+              perform is-screen-1-exit
+           when event-occurred
+              if event-type = msg-close
+                 perform is-screen-1-exit
+              end-if
+           end-evaluate.
+           move 1 to accept-control.
+       is-screen-1-exit.
+           set exit-pushed to true.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>savReport</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.iscobol.plugins.editor.IscobolEditor.IscobolBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.iscobol.plugins.editor.IscobolEditor.IscobolNature</nature>
+		<nature>com.iscobol.plugins.editor.IscobolEditor.IscobolNatureExt</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>cpy/COMG01LK.CPY</name>
+			<type>1</type>
+			<location>C:/SAVMNT/C/COMG01LK.CPY</location>
+		</link>
+	</linkedResources>
+</projectDescription>

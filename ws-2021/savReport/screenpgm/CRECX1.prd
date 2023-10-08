@@ -1,0 +1,69 @@
+      *CRECX1.prd is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2021\savReport\screen\CRECX1.isp
+       is-initial-routine.
+           accept system-information from system-info.
+           accept terminal-abilities from terminal-info.
+       is-exit-rtn.
+           exit program.
+           stop run.
+       is-screen-1-routine.
+           perform is-screen-1-scrn
+           perform is-screen-1-proc.
+           perform screen-1-aft-routine.
+       is-screen-1-scrn.
+           perform is-screen-1-create
+           perform is-screen-1-init-data.
+       is-screen-1-create.
+           perform screen-1-bef-create.
+           display independent window background-low
+              size 57.1
+              lines 41.2
+              line 10.0
+              column 25.0
+              cell width 10
+              cell height 10
+              label-offset 20
+              color 257
+           visible 0
+              modeless
+              title-bar
+              no wrap
+              title "Emissor de Contrato"
+              handle window-handle
+           .
+           display screen-1.
+       is-screen-1-init-data.
+           perform screen-1-aft-init-data.
+       is-screen-1-proc.
+           perform until exit-pushed
+              accept screen-1 on exception 
+                 perform is-screen-1-evaluate-func
+              end-accept
+           end-perform.
+           destroy window-handle.
+           initialize key-status.
+       is-screen-1-evaluate-func.
+           evaluate true
+           when exit-pushed
+              perform is-screen-1-exit
+           when event-occurred
+              if event-type = cmd-close
+                 perform is-screen-1-exit
+              end-if
+           when key-status = 1001
+              perform is-screen-1-exit
+           when key-status = 1000
+              perform screen-1-pb-1-link-to
+           when key-status = 1002
+              perform screen-1-pb-3-link-to
+           when key-status = 1003
+              perform screen-1-pb-pdf-link-to
+           when key-status = 1004
+              perform screen-1-pb-html-link-to
+           when key-status = 1005
+              perform screen-1-pb-8-link-to
+           when key-status = 1012
+              perform screen-1-pb-4-link-to
+           end-evaluate.
+           move 1 to accept-control.
+       is-screen-1-exit.
+           set exit-pushed to true.

@@ -1,0 +1,105 @@
+      *hybrid.evt is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\screen\hybrid.isp
+      *start event editor code
+      
+      *>event listening
+       screen-1-link-to.
+           evaluate true 
+             when key-status = 999
+               perform buildFrameAndRadios
+                 
+             when key-status = 1010
+               perform destroyElements
+             
+             when key-status = 1000
+               move 123 to wrk-rbNumber
+               display message "Pressionado Radio-Button: " wrk-rbNumber 
+               before time 200  
+            
+             when key-status = 1001
+               move 456 to wrk-rbNumber
+               display message "Pressionado Radio-Button: " wrk-rbNumber 
+               before time 200 
+               
+             when key-status = 1002
+               move 789 to wrk-rbNumber
+               display message "Pressionado Radio-Button: " wrk-rbNumber 
+               before time 200 
+               
+             when key-status = 1003
+               destroy rbRuntime0
+               move "ABC" to wrk-rbLetter
+               display message "Pressionado Radio-Button: " wrk-rbLetter 
+               before time 200
+            
+             when key-status = 1004
+               move "DEF" to wrk-rbLetter
+               display message "Pressionado Radio-Button: " wrk-rbLetter 
+               before time 200
+               
+             when key-status = 1005
+               move "GHI" to wrk-rbLetter
+               display message "Pressionado Radio-Button: " wrk-rbLetter 
+               before time 200
+               
+           end-evaluate
+           .
+           
+      *>construction of frame and radio buttons    
+       buildFrameAndRadios.
+           modify screen-1-pb-1 enabled false
+           
+      *     inquire screen-1-pb-2 id in control-id 
+      *     move 4 to accept-control
+           
+           display frame upon screen-1 
+             line 8 , col 22, lines 10.4, size 14 cells
+             title "Radio At Runtime"
+             handle frRuntime  
+           
+           display radio-button upon screen-1 
+             line 13 , col 23, size 5 cells
+             title "ABC"
+             exception-value 1003
+             group 2
+             handle rbRuntime0
+            
+           display radio-button upon screen-1 
+             line 13 , col 23, size 5 cells
+             title "ABC"
+             exception-value 1003
+             group 2
+             handle rbRuntime1
+                 
+           display radio-button upon screen-1 
+             line 17 , col 23, size 5 cells
+             title "DEF"
+             exception-value 1004
+             group 2
+             handle rbRuntime2
+                   
+           display radio-button upon screen-1 
+             line 21 , col 23, size 5 cells
+             title "GHI"
+             exception-value 1005
+             group 2
+             handle rbRuntime3
+                   
+           display push-button  upon screen-1
+             line 29.1 , col 22, lines 1.8, size 14 cells
+             title "Deconstruct" 
+             exception-value 1010
+             handle pbDestroy
+           .
+      
+      *>deconstruct elements
+       destroyElements.
+           modify screen-1-pb-1 enabled true
+           destroy pbDestroy
+           destroy frRuntime
+           destroy rbRuntime0
+           destroy rbRuntime1
+           destroy rbRuntime2
+           destroy rbRuntime3
+           .
+           
+      *end event editor code

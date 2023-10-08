@@ -1,0 +1,259 @@
+      *CRECX1.wrk is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2021\savReport\screen\CRECX1.isp
+       77 key-status is special-names crt status pic 9(4) value 0.
+          88 exit-pushed value 27.
+          88 message-received value 95.
+          88 event-occurred value 96.
+          88 screen-no-input-field value 97.
+          88 screen-time-out value 99.
+       77 quit-mode-flag pic s9(5) comp-4 value 0.
+       77 window-handle handle of window.
+       77 Tahoma-8v0 handle of font.
+       77 Tahoma-8v0-b handle of font.
+       77 Tahoma-8v00 handle of font.
+       77 Tahoma-10v0 handle of font.
+       77 report-name pic x any length.
+       77 log-file-name pic x(23) value "hs-sav-exceptions.log".
+       77 h-bmphandle-logo-main pic s9(9) comp-4.
+       77 returnCode pic S9.
+       77 w-called-by pic x(30).
+       77 wrk-count pic 9(02).
+       01 wrk-valor pic 9(13)V99.
+       01 wrk-valor-red redefines wrk-valor pic x(15).
+       77 WINPRINT-PRINT-BITMAP int.
+       77 process-id pic 9(09).
+       77 Consolas-10v0 handle of font.
+       77 img-name pic x(80).
+       77 r-ef-creloj pic ZZ9.
+       77 r-ef-crenum pic ZZZZZ9.
+       77 r-ef-credoc pic ZZZZZZZZZ9 blank when zero.
+       77 r-ef-vtn pic ZZZZ.ZZZ.ZZ9,99.
+       77 r-ef-vte pic ZZZZ.ZZZ.ZZ9,99.
+       77 r-ef-vtf pic ZZZZ.ZZZ.ZZ9,99.
+       77 r-ef-qtp pic ZZZ9 blank when zero.
+       77 r-ef-dtp pic 99/99/9999 blank when zero.
+       77 r-ef-dtu pic 99/99/9999 blank when zero.
+       01 wrk-cpf pic 9(15).
+       01 wrk-cpf-red redefines wrk-cpf.
+          03 wrk-cpf0 pic 9(04).
+          03 wrk-cpf1 pic 9(09).
+          03 wrk-cpf2 pic 9(02).
+       01 wrk-cpf-ed.
+          03 wrk-cpf-ed1 pic 999.999.999.
+          03 wrk-cpf-edh pic x(01).
+          03 wrk-cpf-ed2 pic 9(02).
+       01 r-ef-cliente.
+          03 r-ef-clinom pic x(45) value "".
+          03 r-ef-cliend pic x(49) value "".
+          03 r-ef-clicmp pic x(45).
+          03 r-ef-clicpf pic X(15).
+          03 r-ef-clibai pic x(23) value "".
+          03 r-ef-clicid pic x(30) value "".
+          03 r-ef-cliuf pic x(02) value "".
+       01 r-ef-avalista.
+          03 r-ef-avacid pic x(30).
+          03 r-ef-avanom pic x(50).
+          03 r-ef-avauf pic x(02) value "".
+          03 r-ef-avacpf pic X(15).
+       77 r-ef-vend pic x(20) value "".
+       77 r-ef-ext pic x(90) value "".
+       77 r-ef-local pic x(50) value "".
+       77 Consolas-10v0-b handle of font.
+       77 Times-New-Roman-11v0 handle of font.
+       01 WS-TIPO-LOJA pic x(01).
+          88 FATURADORA value "F".
+       01 NM-AREA.
+          03 nome-advcre pic x(10) value "ADVCRE.ARQ".
+          03 nome-crerec pic x(10) value "CREREC.ARQ".
+          03 nome-trsloj pic x(10) value "TRSLOJ.ARQ".
+          03 nome-trsmun pic x(10) value "TRSMUN.ARQ".
+          03 nome-trstra pic x(10) value "TRSTRA.ARQ".
+          03 nome-trsass pic x(10) value "TRSASS.ARQ".
+          03 nome-advcom pic x(10) value "ADVCOM.ARQ".
+       01 FS-AREA.
+          03 fs-arquivo pic x(02).
+          03 fs-advcre pic x(02).
+          03 fs-advwcre pic x(02).
+          03 fs-crerec pic x(02).
+          03 fs-crewrec pic x(02).
+          03 fs-arqpar pic x(02).
+          03 fs-trsloj pic x(02).
+          03 fs-trsmun pic x(02).
+          03 fs-trstra pic x(02).
+          03 fs-trsass pic x(02).
+          03 fs-advcom pic x(02).
+       01 WS-G01PARM.
+          03 WS-G01OPC pic X(01).
+             88 FROM-CREREC value "2".
+             88 FROM-ADVCRE value "1".
+          03 WS-G01LOJ pic 9(03).
+          03 WS-G01NUM pic 9(06).
+          03 WS-G01PARC pic 9(02).
+          03 WS-G01DJI pic 9(07).
+          03 WS-G01DJF pic 9(07).
+          03 WS-G01CCL pic 9(06).
+          03 WS-G01ASS pic 9(03).
+          03 WS-G01VIA pic 9(01).
+          03 WS-G01IMP pic x(03).
+          03 filler  redefines WS-G01IMP.
+             05 WS-G01IMP1 pic x(01).
+             05 WS-G01IMP2 pic x(02).
+          03 WS-G01NOM pic x(12).
+       77 LogoDitenRet-jp pic s9(9) comp-4.
+       77 Arial-Narrow-12v0-b handle of font.
+       77 Arial-Narrow-12v0 handle of font.
+       77 SansSerif-14v0 handle of font.
+       copy "isprint.def".
+       01 ISC-XD9-ST pic 9(01) value 0.
+       01 ERROR-WRK.
+          03 CRERR-TEXTO pic X any length.
+          03 T-ERR pic X any length.
+          03 MESSAGE-ANSWER pic 9.
+          03 ERR-WHENCOMPILED pic X(50).
+          03 ERR-ICON pic 9.
+          03 ERR-FONT-NAMEST pic X value ' '.
+          03 ERR-FONT-NAME handle of font.
+          03 ERROR-USR pic X(04).
+       77 FL-PRIMEIRA-TELA pic X(01) value "S".
+       01 SCREEN-DATA pic X.
+       01 COMMSG.
+          05 SV-CODARQ pic X(03).
+          05 SV-CHVARQ pic X(20) value ' '.
+          05 SV-MSGAUX pic X(80).
+          05 FILLER redefines SV-MSGAUX.
+             10 SV-BIT-MSGAUX occurs 80 pic X(01).
+          05 SV-MSGARQ pic X(06).
+          05 SV-MSGOK pic X(01).
+          05 ESC-INV.
+             10 FILLERA pic X(04) value X"1B5B386D".
+          05 ESC-NOR.
+             10 FILLERA pic X(04) value X"1B5B306D".
+          05 SV-FS pic X(02) value ' '.
+          05 FILLER redefines SV-FS.
+             10 SV-FS1 pic X(01).
+             10 SV-FS2 pic X(01) comp-x.
+          05 NOP-ROTADE3 pic 9(04) value 0.
+          05 FILLER redefines NOP-ROTADE3.
+             10 NOP-ROTADE-0 pic 9(01).
+             10 NOP-ROTADE-00 pic 9(03).
+             10 FILLER redefines NOP-ROTADE-00.
+                15 NOP-ROTADE-1 pic 9(01).
+                15 NOP-ROTADE-2 pic 9(02).
+       01 FWC-VERSAO.
+          05 FWC-DATAHORA pic X(14) value ' '.
+          05 FWC-DATAHORA-FLR redefines FWC-DATAHORA.
+             10 FWC-DATA-INV pic 9(08).
+             10 FILLER redefines FWC-DATA-INV.
+                15 FWC-ANOI pic 9(04).
+                15 FWC-MESI pic 9(02).
+                15 FWC-DIAI pic 9(02).
+             10 FWC-HHMMSS pic 9(06).
+             10 FWC-TIME redefines FWC-HHMMSS.
+                15 FWC-HHI pic 9(02).
+                15 FWC-MMI pic 9(02).
+                15 FWC-SSI pic 9(02).
+          05 FWC-DATA-COMP pic 9(08).
+          05 FILLER redefines FWC-DATA-COMP.
+             10 FWC-DIA pic 9(02).
+             10 FWC-MES pic 9(02).
+             10 FWC-ANO pic 9(04).
+          05 FWC-DATA-EDT pic 99/99/9999.
+          05 FWC-HORA-EDT.
+             10 FWC-HH pic 9(02).
+             10 FWC-FLR pic X(01) value ":".
+             10 FWC-MM pic 9(02).
+             10 FWC-FLR pic X(01) value ":".
+             10 FWC-SS pic 9(02).
+       01 SV-REGMEN.
+          05 SV-MENTIP pic X(01) value ' '.
+          05 SV-MENPRG pic X(08) value ' '.
+          05 SV-MENUSR pic X(04) value ' '.
+          05 SV-MENSTS pic X(02) value ' '.
+          05 SV-MENTXT pic X(80) value ' '.
+       01 SV-ROTTEL.
+          05 SV-LINHAS.
+             10 SV-LININI pic 9(02) value 0.
+             10 SV-LINFIM pic 9(02) value 0.
+             10 SV-COLINI pic 9(02) value 0.
+             10 SV-COLFIM pic 9(02) value 0.
+          05 IN-ACHA-ULT-COL pic 9(02) value 0.
+          05 IN-ACHA-ULT-COL-R redefines IN-ACHA-ULT-COL pic X(02).
+       01 TEL2-0 pic X(01) value ' '.
+       01 MF-SET-SIZE pic 9(2) comp value 32.
+       01 MF-FIELD-SIZE pic 9(4) comp value 0.
+       01 IN-FUNDO pic 99.
+       01 IN-LETRA pic 99.
+       01 TABELA-DE-CORES pic X any length.
+       01 TABELA-CABE pic X(48) value ' '.
+       01 TABELA-BODY pic X(48) value ' '.
+       01 TABELA-RODA pic X(48) value ' '.
+       01 TABELA-ACCEPT pic X(48) value ' '.
+       01 TABELA-REV pic X(68) value ' '.
+       01 TABELA-AUX-CORES pic X(68) value ' '.
+       01 ISC-CABE-BG pic S9(10) value 0.
+       01 ISC-BODY-BG pic S9(10) value 0.
+       01 ISC-RODA-BG pic S9(10) value 0.
+       01 ISC-ACCEPT-BG pic S9(10) value 0.
+       01 ISC-CABE-FG pic S9(10) value 0.
+       01 ISC-BODY-FG pic S9(10) value 0.
+       01 ISC-RODA-FG pic S9(10) value 0.
+       01 ISC-ACCEPT-FG pic S9(10) value 0.
+       01 ISC-AZUL pic S9(10) value 0.
+       01 ISC-AZUL1 pic S9(10) value 0.
+       01 ISC-BRANCO pic S9(10) value 0.
+       01 ISC-CYAN pic S9(10) value 0.
+       01 ISC-LILAS pic S9(10) value 0.
+       01 ISC-MAGENTA pic S9(10) value 0.
+       01 ISC-MARROM pic S9(10) value 0.
+       01 ISC-PRETO pic S9(10) value 0.
+       01 ISC-VERDE pic S9(10) value 0.
+       01 ISC-VERMELHO pic S9(10) value 0.
+       01 ISC-BG pic S9(10) value 0.
+       01 ISC-FG pic S9(10) value 0.
+       01 ISC-LINHA pic X(80).
+       01 ISC-COR-DE-FUNDO pic X(15).
+       01 ISC-COR-DE-LETRA pic X(15).
+       01 ISC-FILLER-HIGH pic X(15).
+       01 ISC-ACCE-FG pic X(15).
+       01 ISC-ACCE-BG pic X(15).
+       01 TABELA-DE-CORES-ISC.
+          05 FILLER-A pic X(08) value "bcolor=".
+          05 COR-DE-FUNDO pic X(15).
+          05 FILLER-M pic X value ",".
+          05 FILLER-B pic X(07) value "fcolor=".
+          05 COR-DE-LETRA pic X(15).
+          05 FILLER-N pic X value ",".
+          05 FILLER-HIGH pic X(15).
+       01 ERROR-TITLE pic X any length.
+       01 ERROR-PROG pic X any length.
+       01 CRERR-STATUS.
+          03 FSERR-STATUS pic X(2).
+          03 EXERR-STATUS pic X(5).
+             88 ERRO-NA-LICENCA value "918", "920", "2405", "2406", "209
+      -      "16", "22401", "22402", "22403", "22404", "22407".
+          03 EXTERR-STATUS redefines EXERR-STATUS pic X(5).
+       01 RERRNAME pic X(50).
+       01 COMG03.
+          05 G03NOM pic X(15).
+          05 G03MEN pic X(40).
+          05 G03PAG pic 9(01) value 0.
+          05 G03REL pic X(03).
+          05 G03IMP pic X(03).
+          05 G03IMP-R redefines G03IMP.
+             10 G03TIP pic X(01).
+             10 G03NUM pic X(02).
+       01 NOME-REL pic X(15).
+       01 ESC-S pic XX value X"1B73".
+       01 ESC-V pic XX value X"1B76".
+       01 W-LIMPAIMP pic XX value X"1B40".
+       01 W-COMPACTA pic X value X"0F".
+       77 is-htmlrnd object reference iscobol-html-renderer.
+       77 is-DT-campo-1-bgcolor pic x(7) value "#ffffff".
+       01 is-report-1-groupby-buf.
+          03 filler pic x.
+       77 report-1-doprintrtn-loop pic 9 value 0.
+       01 is-report-1-height.
+          03 is-report-1-page-height pic 9(4) value 1122.
+          03 is-report-1-page-width pic 9(4) value 794.
+          03 is-DT-campo-1-def-height pic 9(4) value 1119.
+          03 is-DT-campo-1-height pic 9(4) value 1119.
+       77 is-report-1-cleftoffset pic 9(6) value 0.

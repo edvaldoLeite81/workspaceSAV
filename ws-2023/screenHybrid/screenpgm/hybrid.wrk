@@ -1,0 +1,17 @@
+      *hybrid.wrk is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\screen\hybrid.isp
+       77 key-status is special-names crt status pic 9(4) value 0.
+          88 exit-pushed value 27.
+          88 message-received value 95.
+          88 event-occurred value 96.
+          88 screen-no-input-field value 97.
+          88 screen-time-out value 99.
+       77 quit-mode-flag pic s9(5) comp-4 value 0.
+       77 window-handle handle of window.
+       77 pbDestroy handle of push-button.
+       77 frRuntime handle of frame.
+       77 rbRuntime1 handle of radio-button.
+       77 rbRuntime2 handle of push-button.
+       77 rbRuntime3 handle of radio-button.
+       77 wrk-rbNumber pic 9(3).
+       77 wrk-rbLetter pic x(3).
+       77 rbRuntime0 handle of radio-button.

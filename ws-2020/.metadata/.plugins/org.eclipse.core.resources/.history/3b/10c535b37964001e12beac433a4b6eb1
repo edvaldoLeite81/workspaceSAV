@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_382" class="java.beans.XMLDecoder">
+ <array class="com.iscobol.screenpainter.beans.AbstractBeanWindow" length="1">
+  <void index="0">
+   <object class="com.iscobol.screenpainter.beans.swing.SwingWindow" id="SwingWindow0">
+    <void id="AbstractBeanControlArray0" property="components"/>
+    <void property="components">
+     <object idref="AbstractBeanControlArray0"/>
+    </void>
+    <void id="DockableList0" property="layout">
+     <void id="SettingItemArray0" property="settings"/>
+     <void property="settings">
+      <object idref="SettingItemArray0"/>
+     </void>
+    </void>
+    <void id="MenuArray0" property="menus"/>
+    <void property="menus">
+     <object idref="MenuArray0"/>
+    </void>
+    <void property="name">
+     <string>screen-1</string>
+    </void>
+    <void id="IToolbarArray0" property="toolbars"/>
+    <void property="toolbars">
+     <object idref="IToolbarArray0"/>
+    </void>
+    <void property="windowHandle">
+     <string>window-handle</string>
+    </void>
+   </object>
+  </void>
+ </array>
+ <array class="com.iscobol.screenpainter.beans.types.VariableType" length="1">
+  <void index="0">
+   <object class="com.iscobol.screenpainter.beans.types.VariableType" id="VariableType0">
+    <void id="SettingTreeItemArray0" property="children"/>
+    <void property="children">
+     <object idref="SettingTreeItemArray0"/>
+    </void>
+    <void property="level">
+     <string>77</string>
+    </void>
+    <void property="name">
+     <string>window-handle</string>
+    </void>
+    <void property="usage">
+     <object class="com.iscobol.screenpainter.beans.types.VariableUsage">
+      <int>25</int>
+     </object>
+    </void>
+    <void property="NType">
+     <int>1003</int>
+    </void>
+   </object>
+  </void>
+ </array>
+ <object class="com.iscobol.screenpainter.propertysheet.EventParagraphs"/>
+ <object class="com.iscobol.screenpainter.beans.types.FileSection" id="FileSection0">
+  <void id="FDAttributesArray0" property="FDAttributes"/>
+  <void property="FDAttributes">
+   <object idref="FDAttributesArray0"/>
+  </void>
+  <void id="FileEntryArray0" property="FDEntries"/>
+  <void property="FDEntries">
+   <object idref="FileEntryArray0"/>
+  </void>
+  <void id="FileEntryArray1" property="SLEntries"/>
+  <void property="SLEntries">
+   <object idref="FileEntryArray1"/>
+  </void>
+  <void id="DataSetArray0" property="dataSets"/>
+  <void property="dataSets">
+   <object idref="DataSetArray0"/>
+  </void>
+  <void id="FileEntryArray2" property="declarativeEntries"/>
+  <void property="declarativeEntries">
+   <object idref="FileEntryArray2"/>
+  </void>
+ </object>
+ <object class="com.iscobol.screenpainter.beans.types.Repository" id="Repository0">
+  <void id="Repository$EntryArray0" property="entries"/>
+  <void property="entries">
+   <object idref="Repository$EntryArray0"/>
+  </void>
+  <void id="FileEntryArray3" property="fileEntries"/>
+  <void property="fileEntries">
+   <object idref="FileEntryArray3"/>
+  </void>
+ </object>
+ <object class="java.util.Hashtable">
+  <void method="put">
+   <string>iscobol.release</string>
+   <string>isCOBOL2020R2</string>
+  </void>
+ </object>
+ <object class="com.iscobol.screenpainter.beans.types.AlphabetList" id="AlphabetList0">
+  <void id="AlphabetArray0" property="alphabets"/>
+  <void property="alphabets">
+   <object idref="AlphabetArray0"/>
+  </void>
+  <void id="FileEntryArray4" property="fileEntries"/>
+  <void property="fileEntries">
+   <object idref="FileEntryArray4"/>
+  </void>
+ </object>
+ <array class="com.iscobol.reportdesigner.beans.Report" length="0"/>
+ <object class="com.iscobol.screenpainter.beans.types.VariableTypeList" id="VariableTypeList0">
+  <void id="SettingItemArray1" property="settings"/>
+  <void property="settings">
+   <object idref="SettingItemArray1"/>
+  </void>
+ </object>
+ <object class="com.iscobol.screenpainter.propertysheet.DataDefinition">
+  <string>wss</string>
+ </object>
+ <object class="com.iscobol.screenpainter.propertysheet.DataDefinition">
+  <string>lks</string>
+ </object>
+</java>
