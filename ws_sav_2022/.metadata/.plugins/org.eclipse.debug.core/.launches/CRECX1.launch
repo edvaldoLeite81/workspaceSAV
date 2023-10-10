@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="IscobolConfigurationType">
     <stringAttribute key="arguments" value=""/>
-    <stringAttribute key="outdir" value="C:/Users/edval/OneDrive/Área de Trabalho/SAV WORKSPACE/ws-2022/savReport/output"/>
+    <stringAttribute key="outdir" value="W:/SAV/ws_sav_2022/savReport/output"/>
     <stringAttribute key="process_factory_id" value="com.iscobol.plugins.processFactory"/>
     <stringAttribute key="progname" value="CRECX1"/>
     <stringAttribute key="projectname" value="savReport"/>

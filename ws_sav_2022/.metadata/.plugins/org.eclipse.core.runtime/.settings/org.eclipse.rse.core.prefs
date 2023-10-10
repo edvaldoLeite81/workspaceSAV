@@ -1,3 +1,4 @@
 activeuserprofiles=SUP-5;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=edval
+useridperkey=SUP-5.Local\=edval;
