@@ -1,0 +1,671 @@
+!SESSION 2023-10-06 16:33:43.691 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-06 16:34:15.577
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-06 16:34:15.577
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d7df55,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@674c01ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-06 16:34:19.471
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-06 17:01:53.280 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-06 17:02:27.363
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-06 17:02:27.363
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7afac89a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76d220eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-06 17:02:41.607
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-07 14:28:11.906 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-07 14:28:42.888
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-07 14:28:42.888
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9cdf13e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bede349,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-07 14:29:01.005
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.console 4 120 2023-10-07 14:29:41.848
+!MESSAGE C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:618: error: ')' expected
+      LISTDIR_FILE_TYPE_DIRECTORY=new Level88("LISTDIR-FILE-TYPE-DIRECTORY",LIDIR-FILE-TYPE-DIRECTORY",LISTDIR_FILE_TYPE).addInterval(Factory.getStrLiteral("D"),null);
+                                                                                                     ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:618: error: unclosed string literal
+      LISTDIR_FILE_TYPE_DIRECTORY=new Level88("LISTDIR-FILE-TYPE-DIRECTORY",LIDIR-FILE-TYPE-DIRECTORY",LISTDIR_FILE_TYPE).addInterval(Factory.getStrLiteral("D"),null);
+                                                                                                                                                              ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:618: error: not a statement
+      LISTDIR_FILE_TYPE_DIRECTORY=new Level88("LISTDIR-FILE-TYPE-DIRECTORY",LIDIR-FILE-TYPE-DIRECTORY",LISTDIR_FILE_TYPE).addInterval(Factory.getStrLiteral("D"),null);
+                                                                                                                                                             ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:742: error: ';' expected
+      WFONT_SCALE_Y=Factory.getVarFloat(WFONT_DATA,58,4,false,Factore), null,null,"WFONT-SCALE-Y",false,13,0,true,false,false);
+                                                                      ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:1400: error: ';' expected
+   final private int IS_SCREEN_1_PROC()  throws GotoException /* section = false*/   n /* section = false*/   {
+                                                             ^
+5 errors
+
+
+!ENTRY org.eclipse.ui.console 4 120 2023-10-07 14:29:41.863
+!MESSAGE C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:618: error: ')' expected
+      LISTDIR_FILE_TYPE_DIRECTORY=new Level88("LISTDIR-FILE-TYPE-DIRECTORY",LIDIR-FILE-TYPE-DIRECTORY",LISTDIR_FILE_TYPE).addInterval(Factory.getStrLiteral("D"),null);
+                                                                                                     ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:618: error: unclosed string literal
+      LISTDIR_FILE_TYPE_DIRECTORY=new Level88("LISTDIR-FILE-TYPE-DIRECTORY",LIDIR-FILE-TYPE-DIRECTORY",LISTDIR_FILE_TYPE).addInterval(Factory.getStrLiteral("D"),null);
+                                                                                                                                                              ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:618: error: not a statement
+      LISTDIR_FILE_TYPE_DIRECTORY=new Level88("LISTDIR-FILE-TYPE-DIRECTORY",LIDIR-FILE-TYPE-DIRECTORY",LISTDIR_FILE_TYPE).addInterval(Factory.getStrLiteral("D"),null);
+                                                                                                                                                             ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:742: error: ';' expected
+      WFONT_SCALE_Y=Factory.getVarFloat(WFONT_DATA,58,4,false,Factore), null,null,"WFONT-SCALE-Y",false,13,0,true,false,false);
+                                                                      ^
+C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java:1400: error: ';' expected
+   final private int IS_SCREEN_1_PROC()  throws GotoException /* section = false*/   n /* section = false*/   {
+                                                             ^
+5 errors
+
+!SESSION 2023-10-07 18:04:39.640 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -data C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023 -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-07 18:04:42.394
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-07 18:04:42.394
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12ebcdf6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30dd23e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-07 18:04:46.752
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-07 21:36:07.718 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-07 21:36:28.313
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-07 21:36:28.313
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ae22651,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@464017f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-07 21:36:53.381
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-07 21:43:56.487 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-07 21:44:11.258
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-07 21:44:11.258
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@481eb705,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ae0eb98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-07 21:44:17.106
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-07 21:55:06.955 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-07 21:55:13.017
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-07 21:55:13.017
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bb661e0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18fcfe7e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-07 21:55:18.688
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2023-10-07 21:57:03.455
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918@179c5315, thread Worker-2: Compile programs will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:03.455
+!MESSAGE Worker-2: Compile programs thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-2: Compile programs
+	at java.management@17.0.8/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.8/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:485)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:209)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:179)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4770)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.compile0(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.access$000(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:03.456
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread mainPCC $$
+	at java.base@17.0.8/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:323)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:207)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at com.iscobol.plugins.editor.util.operations.WorkspaceOperation.execute(Unknown Source)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.getFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.getFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.getScreenFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.writeCopyScreenArea(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.GenerateScreenProgramHandler.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.generateSourcesIfRequired(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.lambda$compile0$1(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$1002/0x000002c05e9c4f88.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$234/0x000002c05e18fbb0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 4 2023-10-07 21:57:04.488
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918@179c5315, thread Worker-2: Compile programs will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:04.488
+!MESSAGE Worker-2: Compile programs thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-2: Compile programs
+	at java.management@17.0.8/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.8/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:485)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:209)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:179)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4770)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.compile0(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.access$000(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:04.488
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread mainPCC $$
+	at java.base@17.0.8/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:323)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:207)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at com.iscobol.plugins.editor.util.operations.WorkspaceOperation.execute(Unknown Source)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.getFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.getFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.getProcedureFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.writeCopyProcedure(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.GenerateScreenProgramHandler.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.generateSourcesIfRequired(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.lambda$compile0$1(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$1002/0x000002c05e9c4f88.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$234/0x000002c05e18fbb0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 4 2023-10-07 21:57:05.549
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918@179c5315, thread Worker-2: Compile programs will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:05.549
+!MESSAGE Worker-2: Compile programs thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-2: Compile programs
+	at java.management@17.0.8/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.8/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:485)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:209)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:179)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4770)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.compile0(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.access$000(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:05.549
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread mainPCC $$
+	at java.base@17.0.8/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:323)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:207)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at com.iscobol.plugins.editor.util.operations.WorkspaceOperation.execute(Unknown Source)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.getFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.getFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.getEventFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.writeCopyProcedure(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.GenerateScreenProgramHandler.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.generateSourcesIfRequired(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.lambda$compile0$1(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$1002/0x000002c05e9c4f88.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$234/0x000002c05e18fbb0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 4 2023-10-07 21:57:06.614
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918@179c5315, thread Worker-2: Compile programs will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:06.614
+!MESSAGE Worker-2: Compile programs thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-2: Compile programs
+	at java.management@17.0.8/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.8/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:485)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:209)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:179)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4770)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.compile0(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.access$000(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2023-10-07 21:57:06.614
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread mainPCC $$
+	at java.base@17.0.8/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:323)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:207)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at com.iscobol.plugins.editor.util.operations.WorkspaceOperation.execute(Unknown Source)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.modifyFile(Unknown Source)
+	at com.iscobol.plugins.editor.util.PluginUtilities.getFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.getProgramFile(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.CodeGenerator.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.GenerateScreenProgramHandler.generate(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.generateSourcesIfRequired(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler.lambda$compile0$1(Unknown Source)
+	at com.iscobol.screenpainter.handlers.CompileScreenProgramHandler$$Lambda$1158/0x000002c05eb6f918.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$1002/0x000002c05e9c4f88.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$234/0x000002c05e18fbb0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui.console 4 120 2023-10-07 21:57:07.692
+!MESSAGE error: file not found: C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\output\HYBRID.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+!SESSION 2023-10-09 10:51:10.810 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=D:\Java\jdk-17\bin\javac.exe -LocalDocLocation=D:\Veryant\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-09 10:52:22.573
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-09 10:52:22.573
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34dda1b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@193d73d3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-09 10:52:40.361
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-10 10:57:13.674 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -perspective IscobolPerspective -JavacCompiler=J:\jdk-17\bin\javac.exe -LocalDocLocation=V:\isCOBOL_Evolve2023R2\doc\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective IscobolPerspective -JavacCompiler=J:\jdk-17\bin\javac.exe -LocalDocLocation=V:\isCOBOL_Evolve2023R2\doc\index.html
+
+!ENTRY org.eclipse.jface 2 0 2023-10-10 10:57:51.115
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-10 10:57:51.115
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f14eb51,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f31cf8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-10 10:58:03.558
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edval'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-10 10:58:23.606
+!MESSAGE An internal error occurred during: "Update Job".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.p2.core.IProvisioningAgent.getService(java.lang.Class)" because "this.this$0.agent" is null
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
