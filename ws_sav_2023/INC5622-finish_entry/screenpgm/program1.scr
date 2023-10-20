@@ -1,0 +1,18 @@
+      *program1.scr is generated from W:\Webclient\AnnA\5622\screen\program1.isp
+       01 screen-1
+       .
+          03 screen-1-gr-1 Grid
+             line 2,6
+             column 12,0
+             size 46,3 cells 
+             lines 28,9 cells 
+             id 1
+             event procedure screen-1-gr-1-evt-proc
+             no-box
+             column-headings
+             tiled-headings
+             virtual-width 150
+             heading-background-color rgb x#d2d2d2
+             cursor-frame-width 3
+             num-rows 10
+             .

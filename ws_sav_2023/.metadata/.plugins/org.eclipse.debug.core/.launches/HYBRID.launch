@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="IscobolConfigurationType">
     <stringAttribute key="arguments" value=""/>
-    <stringAttribute key="outdir" value="C:/Users/edval/OneDrive/Área de Trabalho/SAV WORKSPACE/ws-2023/screenHybrid/output"/>
+    <stringAttribute key="outdir" value="W:/SAV/ws_sav_2023/screenHybrid/output"/>
     <stringAttribute key="process_factory_id" value="com.iscobol.plugins.processFactory"/>
     <stringAttribute key="progname" value="HYBRID"/>
     <stringAttribute key="projectname" value="screenHybrid"/>

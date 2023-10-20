@@ -1,16 +1,16 @@
 *>compiler version: isCOBOL release 2023 R2 build#1105.7-20230925-36902
-*>source file name:  W:\SAV\ws_sav_2023\screenHybrid\source\hybrid.cbl
-*>date generated  :  Tue Oct 10 14:51:37 BRT 2023
-*>compiler options:  -dx -oe -sp=cpy;screenpgm;fdsl -esme=100 -smat -od=W:/SAV/ws_sav_2023/screenHybrid/output -jj -eo=W:/SAV/ws_sav_2023/screenHybrid/errs -b -cghv -d -g -lo=W:/SAV/ws_sav_2023/screenHybrid/list -tasks
+*>source file name:  W:\SAV\ws_sav_2023\INC5622-finish_entry\source\finishEntry.cbl
+*>date generated  :  Wed Oct 18 11:05:23 BRT 2023
+*>compiler options:  -dx -oe -sp=cpy;screenpgm;fdsl -esme=100 -smat -od=W:/SAV/ws_sav_2023/INC5622-finish_entry/output -jj -eo=W:/SAV/ws_sav_2023/INC5622-finish_entry/errs -b -cghv -d -g -lo=W:/SAV/ws_sav_2023/INC5622-finish_entry/list -tasks
 *>begin {iscobol}compiler-directives                               
 *>end {iscobol}compiler-directives                                 
 *>begin {iscobol}prog-comment                                      
-*>hybrid.cbl                                                       
-*>hybrid.cbl is generated from W:\SAV\ws_sav_2023\screenHybrid\scre
+*>finishEntry.cbl                                                  
+*>finishEntry.cbl is generated from W:\SAV\ws_sav_2023\INC5622-fini
 *>end {iscobol}prog-comment                                        
 identification division.                                         
 *>begin {iscobol}progid                                            
-program-id. hybrid.                                              
+program-id. finishEntry.                                         
 author. edval.                                                   
 remarks.                                                         
 *>end {iscobol}progid                                              
@@ -37,7 +37,7 @@ file section.
 working-storage section.                                         
 *>begin {iscobol}is-def                                            
 *>copy "isgui.def".                                                
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\isgui.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\isgui.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2023 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -526,9 +526,9 @@ working-storage section.
 78  gradient-northwest-to-southeast              value 7. 
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\isgui.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\isgui.def
 *>copy "iscobol.def".                                              
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\iscobol.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\iscobol.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2023 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -847,9 +847,9 @@ working-storage section.
     03 cmonitor-start-x                          signed-int. 
 
 *>      >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\iscobol.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\iscobol.def
 *>copy "iscrt.def".                                                
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\iscrt.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\iscrt.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2023 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -873,9 +873,9 @@ working-storage section.
     03  control-id                               pic xx comp-x. 
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\iscrt.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\iscrt.def
 *>copy "isfonts.def".                                              
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\isfonts.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\isfonts.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2023 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -884,7 +884,7 @@ working-storage section.
 *>       >>SOURCE FORMAT FREE
 
 *>copy "fonts.def". 
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\fonts.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\fonts.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2023 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -968,9 +968,9 @@ working-storage section.
     03  wfont-scale-y                            float value 0. 
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\fonts.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\fonts.def
 *>copy "stdfonts.def". 
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\stdfonts.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\stdfonts.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2023 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -986,12 +986,12 @@ working-storage section.
 77  large-font                                   handle of font large-font. 
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\stdfonts.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\stdfonts.def
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\isfonts.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\isfonts.def
 *>copy "isresize.def".                                             
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\isresize.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\isresize.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2023 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -1028,9 +1028,9 @@ working-storage section.
 77  custom-lm-zoom                               handle of layout-manager, lm-zoom "hbar=35 vbar=50 label=34". 
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\isresize.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\isresize.def
 *>copy "ismsg.def".                                                
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\ismsg.def
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\ismsg.def
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2019 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -1067,12 +1067,12 @@ working-storage section.
 77 is-idx3                  pic 9(3). 
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\ismsg.def
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\ismsg.def
 *>end {iscobol}is-def                                              
 *>begin {iscobol}copy-working                                      
-*>copy "hybrid.wrk".                                               
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.wrk
-*>hybrid.wrk is generated from W:\SAV\ws_sav_2023\screenHybrid\scre
+*>copy "finishEntry.wrk".                                          
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.wrk
+*>finishEntry.wrk is generated from W:\SAV\ws_sav_2023\INC5622-fini
 77 key-status is special-names crt status pic 9(4) value 0.      
    88 exit-pushed value 27.                                      
    88 message-received value 95.                                 
@@ -1081,18 +1081,9 @@ working-storage section.
    88 screen-time-out value 99.                                  
 77 quit-mode-flag pic s9(5) comp-4 value 0.                      
 77 window-handle handle of window.                               
-77 pbDestroy handle of push-button.                              
-77 frRuntime handle of frame.                                    
-77 rbRuntime1 handle of radio-button.                            
-77 rbRuntime2 handle of push-button.                             
-77 rbRuntime3 handle of radio-button.                            
-77 wrk-rbNumber pic 9(3).                                        
-77 wrk-rbLetter pic x(3).                                        
-77 rbRuntime0 handle of radio-button.                            
-77 Cambria-12v0 handle of font.                                  
-77 Cambria-18v0 handle of font.                                  
-77 free-ico pic s9(9) comp-4.                                    
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.wrk
+77 wrk-row pic 9(3).                                             
+77 wrk-y pic 9(3).                                               
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.wrk
 *>end {iscobol}copy-working                                        
 *>begin {iscobol}external-definitions                              
 *>end {iscobol}external-definitions                                
@@ -1105,83 +1096,28 @@ linkage section.
 *>end {iscobol}copy-linkage                                        
 screen section.                                                  
 *>begin {iscobol}copy-screen                                       
-*>copy "hybrid.scr".                                               
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.scr
-*>hybrid.scr is generated from W:\SAV\ws_sav_2023\screenHybrid\scre
+*>copy "finishEntry.scr".                                          
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.scr
+*>finishEntry.scr is generated from W:\SAV\ws_sav_2023\INC5622-fini
 01 screen-1                                                      
 .                                                                
-   03 screen-1-la-1 Label                                        
-      line 1.4                                                   
-      column 3.5                                                 
-      size 32.1 cells                                            
-      lines 4.2 cells                                            
-      foreground-color rgb 8421504                              
-      font Cambria-18v0                                          
+   03 screen-1-gr-1 Grid                                         
+      line 2.6                                                   
+      column 12.0                                                
+      size 46.3 cells                                            
+      lines 25.4 cells                                           
       id 1                                                       
-      title "Hybrid Screen"                                      
+      event procedure screen-1-gr-1-evt-proc                     
+      no-box                                                     
+      column-headings                                            
+      tiled-headings                                             
+      virtual-width 150                                          
+      end-color rgb 16777215                                     
+      heading-background-color rgb 13816530                      
+      cursor-frame-width 3                                       
+      num-rows 9                                                 
       .                                                          
-   03 screen-1-fr-1 Frame                                        
-      line 8.0                                                   
-      column 3.5                                                 
-      size 13.6 cells                                            
-      lines 16.7 cells                                           
-      id 2                                                       
-      title "Radio Fixed"                                        
-      .                                                          
-   03 screen-1-rb-1 Radio-Button                                 
-      exception-value 1000                                       
-      line 12.5                                                  
-      column 4.5                                                 
-      size 11.6 cells                                            
-      lines 2.0 cells                                            
-      id 4                                                       
-      title "123"                                                
-      group 1                                                    
-      value "0"                                                  
-      .                                                          
-   03 screen-1-rb-2 Radio-Button                                 
-      exception-value 1001                                       
-      line 16.7                                                  
-      column 4.5                                                 
-      size 10.1 cells                                            
-      lines 2.0 cells                                            
-      id 5                                                       
-      title "456"                                                
-      group 1                                                    
-      group-value "0"                                            
-      value "0"                                                  
-      .                                                          
-   03 screen-1-rb-3 Radio-Button                                 
-      exception-value 1002                                       
-      line 21.1                                                  
-      column 4.5                                                 
-      size 8.1 cells                                             
-      lines 1.8 cells                                            
-      id 6                                                       
-      title "789"                                                
-      group 1                                                    
-      group-value "0"                                            
-      value "0"                                                  
-      .                                                          
-   03 screen-1-pb-1 Push-Button                                  
-      exception-value 999                                        
-      line 29.2                                                  
-      column 3.5                                                 
-      size 14.0 cells                                            
-      lines 3.6 cells                                            
-      id 3                                                       
-      title "Radio At Runtime"                                   
-      .                                                          
-   03 screen-1-pb-2 Push-Button                                  
-      exception-value 27                                         
-      line 38.9                                                  
-      column 21.6                                                
-      size 14.0 cells                                            
-      lines 3.2 cells                                            
-      id 7                                                       
-      title "Finish"                                             
-      .                                                          
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.scr
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.scr
 *>end {iscobol}copy-screen                                         
 *>begin {iscobol}procedure-using                                   
 procedure division.                                              
@@ -1202,7 +1138,7 @@ main-logic.
 *>end {iscobol}exit-routines                                       
 *>begin {iscobol}copy-procedure                                    
 *>copy "ismsg.cpy".                                                
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\ismsg.cpy
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\ismsg.cpy
 *>>********************************************************************<*
 *>>***** Copyright (c) 2005 - 2019 Veryant. Users of isCOBOL      *****<*
 *>>***** may freely modify and redistribute this program.         *****<*
@@ -1332,37 +1268,16 @@ is-message-box.
     . 
 
 *>       >>SOURCE FORMAT PREVIOUS
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\cpy\ismsg.cpy
-*>copy "hybrid.prd".                                               
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.prd
-*>hybrid.prd is generated from W:\SAV\ws_sav_2023\screenHybrid\scre
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\cpy\ismsg.cpy
+*>copy "finishEntry.prd".                                          
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.prd
+*>finishEntry.prd is generated from W:\SAV\ws_sav_2023\INC5622-fini
 is-initial-routine.                                              
     accept system-information from system-info.                  
     accept terminal-abilities from terminal-info.                
-    perform is-load-fonts.                                       
-    perform is-load-bitmaps.                                     
-is-load-fonts.                                                   
-    initialize wfont-data cambria-18v0.                          
-    move 18 to wfont-size.                                       
-    move "Cambria" to wfont-name.                                
-    set wfont-bold to false.                                     
-    set wfont-italic to false.                                   
-    set wfont-underline to false.                                
-    set wfont-strikeout to false.                                
-    set wfont-fixed-pitch to false.                              
-    call "w$font" using wfont-get-font cambria-18v0 wfont-data.  
-is-load-bitmaps.                                                 
-    call "w$bitmap" using wbitmap-load "V:\isCOBOL_WEBC2023R2\web
-    "client\free.ico" giving free-ico.                           
 is-exit-rtn.                                                     
-    perform is-destroy-fonts.                                    
-    perform is-destroy-bitmaps.                                  
     exit program.                                                
     stop run.                                                    
-is-destroy-fonts.                                                
-    destroy cambria-18v0.                                        
-is-destroy-bitmaps.                                              
-    call "w$bitmap" using wbitmap-destroy free-ico.              
 is-screen-1-routine.                                             
     perform is-screen-1-scrn                                     
     perform is-screen-1-proc.                                    
@@ -1373,21 +1288,73 @@ is-screen-1-create.
     display standard window background-low                       
        screen line 41                                            
        screen column 91                                          
-       size 37.5                                                 
-       lines 44.4                                                
-       icon free-ico                                             
+       size 46.2                                                 
+       lines 35.1                                                
        cell width 10                                             
        cell height 10                                            
        label-offset 20                                           
        color 257                                                 
+       resizable                                                 
        modeless                                                  
        title-bar                                                 
        no wrap                                                   
-       title "Screen"                                            
+       title "FINISH ENTRY"                                      
+       layout-manager lm-zoom                                    
+       min-size 70.0                                             
+       min-lines 40.0                                            
        handle window-handle                                      
     .                                                            
     display screen-1.                                            
 is-screen-1-init-data.                                           
+    perform is-screen-1-gr-1-content.                            
+is-screen-1-gr-1-content.                                        
+    modify screen-1-gr-1                                         
+       column-dividers ( 1 1 1 1 1 1 )                           
+       data-columns ( 1 11 21 31 41 51 )                         
+       display-columns ( 1 21 41 61 81 101 )                     
+       separation ( 5 5 5 5 5 5 )                                
+       alignment ( "C" "C" "C" "C" "C" "C" )                     
+       data-types ( "X" "X" "X" "X" "X" "X" )                    
+    .                                                            
+    modify screen-1-gr-1                                         
+       row-background-color-pattern rgb 16316922                 
+       row-foreground-color-pattern rgb 0                        
+       row-background-color-pattern rgb 16777215                 
+       row-foreground-color-pattern rgb 0                        
+    .                                                            
+    modify screen-1-gr-1 x = 1, y = 1                            
+       cell-data "Editable"                                      
+    .                                                            
+    modify screen-1-gr-1 x = 2, y = 1                            
+       cell-data "Read-Only"                                     
+    .                                                            
+    modify screen-1-gr-1 x = 3, y = 1                            
+       cell-data "Read-Only"                                     
+    .                                                            
+    modify screen-1-gr-1 x = 4, y = 1                            
+       cell-data "Read-Only"                                     
+    .                                                            
+    modify screen-1-gr-1 x = 5, y = 1                            
+       cell-data "Read-Only"                                     
+    .                                                            
+    modify screen-1-gr-1 x = 6, y = 1                            
+       cell-data "Read-Only"                                     
+    .                                                            
+    modify screen-1-gr-1 x = 2                                   
+       column-protection 1                                       
+    .                                                            
+    modify screen-1-gr-1 x = 3                                   
+       column-protection 1                                       
+    .                                                            
+    modify screen-1-gr-1 x = 4                                   
+       column-protection 1                                       
+    .                                                            
+    modify screen-1-gr-1 x = 5                                   
+       column-protection 1                                       
+    .                                                            
+    modify screen-1-gr-1 x = 6                                   
+       column-protection 1                                       
+    .                                                            
 is-screen-1-proc.                                                
     perform until exit-pushed                                    
        accept screen-1 on exception                              
@@ -1405,590 +1372,36 @@ is-screen-1-evaluate-func.
           perform is-screen-1-exit                               
        end-if                                                    
     end-evaluate.                                                
-    perform screen-1-link-to.                                    
     move 4 to accept-control.                                    
 is-screen-1-exit.                                                
     set exit-pushed to true.                                     
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.prd
-*>copy "hybrid.evt".                                               
-*>vvv-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.evt
-*>hybrid.evt is generated from W:\SAV\ws_sav_2023\screenHybrid\scre
-*>start event editor code                                          
-                                                                 
-*>>event listening                                                 
-screen-1-link-to.                                                
-    evaluate true                                                
-      when key-status = 999                                      
-        perform buildFrameAndRadios                              
-                                                                 
-      when key-status = 1010                                     
-        perform destroyElements                                  
-                                                                 
-      when key-status = 1000                                     
-        move 123 to wrk-rbNumber                                 
-        display message "Pressionado Radio-Button: " wrk-rbNumber
-        before time 200                                          
-                                                                 
-      when key-status = 1001                                     
-        move 456 to wrk-rbNumber                                 
-        display message "Pressionado Radio-Button: " wrk-rbNumber
-        before time 200                                          
-                                                                 
-      when key-status = 1002                                     
-        move 789 to wrk-rbNumber                                 
-        display message "Pressionado Radio-Button: " wrk-rbNumber
-        before time 200                                          
-                                                                 
-      when key-status = 1003                                     
-        destroy rbRuntime0                                       
-        move "ABC" to wrk-rbLetter                               
-        display message "Pressionado Radio-Button: " wrk-rbLetter
-        before time 200                                          
-                                                                 
-      when key-status = 1004                                     
-        move "DEF" to wrk-rbLetter                               
-        display message "Pressionado Radio-Button: " wrk-rbLetter
-        before time 200                                          
-                                                                 
-      when key-status = 1005                                     
-        move "GHI" to wrk-rbLetter                               
-        display message "Pressionado Radio-Button: " wrk-rbLetter
-        before time 200                                          
-                                                                 
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.prd
+*>copy "finishEntry.evt".                                          
+*>vvv-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.evt
+*>finishEntry.evt is generated from W:\SAV\ws_sav_2023\INC5622-fini
+screen-1-gr-1-evt-proc.                                          
+    evaluate event-type                                          
+    when msg-finish-entry                                        
+       perform screen-1-gr-1-evt-msg-finish-entry                
+    when other                                                   
     end-evaluate                                                 
     .                                                            
+*>start event editor code                                          
                                                                  
-*>>construction of frame and radio buttons                         
-buildFrameAndRadios.                                             
-    modify screen-1-pb-1 enabled false                           
-                                                                 
-    display frame upon screen-1                                  
-      line 8 , col 22, lines 10.5, size 14 cells                 
-      title "Radio At Runtime"                                   
-      handle frRuntime                                           
-                                                                 
-    display radio-button upon screen-1                           
-      line 13 , col 23, size 5 cells                             
-      title "ABC"                                                
-      exception-value 1003                                       
-      group 2                                                    
-      handle rbRuntime0                                          
-                                                                 
-    display radio-button upon screen-1                           
-      line 13 , col 23, size 5 cells                             
-      title "ABC"                                                
-      exception-value 1003                                       
-      group 2                                                    
-      handle rbRuntime1                                          
-                                                                 
-    display radio-button upon screen-1                           
-      line 17 , col 23, size 5 cells                             
-      title "DEF"                                                
-      exception-value 1004                                       
-      group 2                                                    
-      handle rbRuntime2                                          
-                                                                 
-    display radio-button upon screen-1                           
-      line 21 , col 23, size 5 cells                             
-      title "GHI"                                                
-      exception-value 1005                                       
-      group 2                                                    
-      handle rbRuntime3                                          
-                                                                 
-    display push-button  upon screen-1                           
-      line 29.1 , col 22, lines 1.8, size 14 cells               
-      title "Deconstruct"                                        
-      exception-value 1010                                       
-      handle pbDestroy                                           
+screen-1-gr-1-evt-msg-finish-entry.                              
+    inquire screen-1-gr-1 NUM-ROWS wrk-row                       
+    inquire screen-1-gr-1 CURSOR-Y wrk-y                         
+      if wrk-y < wrk-row                                         
+        add 1 to wrk-y                                           
+        modify screen-1-gr-1 CURSOR-Y wrk-y                      
+      else                                                       
+        display message "Essa � a �ltima linha"                  
+        before time 250                                          
+      end-if                                                     
     .                                                            
-                                                                 
-*>>deconstruct elements                                            
-destroyElements.                                                 
-    modify screen-1-pb-1 enabled true                            
-    destroy pbDestroy                                            
-    destroy frRuntime                                            
-    destroy rbRuntime0                                           
-    destroy rbRuntime1                                           
-    destroy rbRuntime2                                           
-    destroy rbRuntime3                                           
-    .                                                            
-                                                                 
 *>end event editor code                                            
-*>^^^-> file: W:\SAV\ws_sav_2023\screenHybrid\screenpgm\hybrid.evt
+*>^^^-> file: W:\SAV\ws_sav_2023\INC5622-finish_entry\screenpgm\finishEntry.evt
 *>end {iscobol}copy-procedure                                      
 report-composer section.                                         
 *>begin {iscobol}external-copyfiles                                
 *>end {iscobol}external-copyfiles                                  
-screenRegistration-aft-init-data.
-           call "w$center_window" using window-handle.
-           modify gridRegistration RESET-GRID 2
-           initialize tblProductRec
-             start     product      key > productPK  
-             perform   until not     valid-product 
-             
-               read      product             next not at end        
-                 move    productCode         to  gridCod
-                 move    productName         to  gridNam
-                 move    productCategory     to  gridCat 
-                 move    productPrice        to  gridPri
-                 move    productQuantity     to  gridQtt
-                 move    productDescription  to  gridDes
-                 move    productURL          to  gridURL
-                 modify  gridRegistration    record-to-add GRIDPROD
-               end-read
-               
-             end-perform
-           modify pbHome enabled false
-           perform labelEdit
-           .
-           
-            
-      *label edit 
-       labelEdit.
-           inquire gridRegistration
-           move productCode  to gridCod
-           if gridCod <> spaces
-               modify screenRegistration-la-edit visible true
-             else
-               modify screenRegistration-la-edit visible false
-           end-if
-           .
-       
-      *home 
-       pbHome-link-to.
-           if wrk-components = 1
-               perform invisibleComponents
-               modify  screenRegistration-la-way VALUE   "HOME"
-               modify  gridRegistration          visible true
-               perform labelEdit
-               move 0 to wrk-components
-               perform destroyDelete
-               modify pbNew  enabled true
-               modify pbHome enabled false
-             else
-               modify  screenRegistration-la-way VALUE   "HOME"
-               modify  gridRegistration          visible true
-               perform labelEdit
-           end-if  
-           .
-       
-      *novo registro   
-       pbNew-link-to.
-           perform constructComponents
-           move 1 to wrk-components 
-           modify pbNew  enabled false
-           modify pbHome enabled true
-           .
-           
-      *pesquisar
-       pbSearch-link-to.
-           perform pbHome-link-to
-           inquire gridRegistration  ID  IN  control-id.
-           move    4 to  accept-control.
-           call    "w$keybuf"    using   1,  "{^F}".
-           modify pbHome enabled false
-           .
-           
-           
-      *verifica codigo existente
-       validCod.
-     
-           read product
-             if fsTblProduct = "00" and wrk-edit = 0
-                 display message 'Código em uso, por favor, '
-                                 'tente outro código...'
-                 before time 250
-                 inquire handleInputCod id in control-id 
-                 move 4 to accept-control 
-             
-               else
-                 perform save
-             end-if
-           .
-           
-      *salvar
-       save.
-           perform inquireData
-           write   tblProductRec          
-           display message box "Produto cadastrado com sucesso!"
-           before time 300
-           perform clearFields
-           modify screenRegistration-la-edit visible false
-           modify pbHome enabled true
-           .
-           
-      *salvar edicao
-       resave.
-           perform inquireData 
-           rewrite tblProductRec
-           
-           modify handleInputCat VALUE ""
-           initialize tblProductRec 
-         
-           display message box "Edição Salva Com Sucesso!"
-           before time 300
-           perform screenRegistration-aft-init-data
-           perform pbHome-link-to
-           perform destroyDelete
-           . 
-           
-      *listening
-       screenRegistration-link-to.
-           evaluate true                                                
-             when key-status = 200
-               inquire handleInputCod value productCode 
-               inquire handleInputNam value productName
-               
-               if productCode equal spaces and productName equal spaces
-                 display message  'Preencha os campos corretamente'
-                 before time 250
-                 inquire handleInputCod id in control-id 
-                 move 4 to accept-control 
-               end-if
-           
-               if productCode equal spaces and productName <> spaces
-                 display message  'Preencha o campo Código'
-                 before time 250
-                 inquire handleInputCod id in control-id 
-                 move 4 to accept-control 
-               end-if
-           
-               if productCode <> spaces and productName = spaces
-                 display message  'Preencha o campo Nome'
-                 before time 250
-                 inquire handleInputNam id in control-id 
-                 move 4 to accept-control 
-               end-if
-           
-               if productCode <> spaces and productName <> spaces
-                                    and wrk-edit = 0                      
-                 perform validCod
-               end-if
-           
-               if wrk-edit = 1 and productName <> spaces
-                perform resave
-               end-if
-               
-              when key-status = 300
-                perform clearFields
-                perform pbHome-link-to
-                if  wrk-edit = 1
-                 perform destroyDelete
-                end-if
-               
-              *>apagar registro
-              when key-status = 404
-               display message box "Quer mesmo excluir?"  x'0a0d'
-                           x'0a0d' "Código: " productCode x'0a0d'
-                                   "Nome  : " productName 
-                                   
-               type 2 default is 2 giving  wrk-return
-               
-               if wrk-return = 1
-                 delete product
-                 
-                   if valid-product 
-                       display message "Registro Excluído!"
-                       before time 200
-                       perform screenRegistration-aft-init-data
-                       perform destroyDelete
-                       perform pbHome-link-to
-                     else
-                       display message "Erro: " fsTblProduct 
-                 end-if
-                 
-               end-if   
-               
-           end-evaluate 
-           .
-      
-      *editar
-       gridRegistration-evt-msg-gd-dblclick.
-           inquire gridRegistration RECORD-DATA GRIDPROD 
-           
-           if gridCod = spaces
-               display message "Não há registro nessa linha"
-               before time 250
-             else 
-               perform pbNew-link-to
-               modify  handleInputCod value   gridCod 
-               modify  handleInputCod enabled false
-               modify  handleInputNam value   gridNam 
-               modify  handleInputPri value   gridPri 
-               modify  handleInputCat value   gridCat 
-               modify  handleInputQtd value   gridQtt 
-               modify  handleInputDes value   gridDes 
-               modify  handleInputURL value   gridURL  
-               modify screenRegistration-la-way VALUE "MODO DE EDIÇÃO"
-               move 1 to wrk-edit
-               move gridCod to productCode 
-               move gridNam to productName
-               perform btDelete
-           end-if
-           .
-           
-           
-      *botão de deletar
-       btDelete.
-       display push-button upon screenRegistration                                 
-           line 46 , col 44,5 , lines 1,5, size 10 cells   
-           foreground-color RGB x#ffffff
-           background-color rgb x#dc3545
-           flat              
-           title "APAGAR"
-           title-position 2
-           exception-value 404
-           handle handleDeleteRegister
-           .
-       destroyDelete.
-           destroy handleDeleteRegister
-           .
-  
-      *>****************************************************************
-       constructComponents.
-           move 0 to wrk-edit 
-           modify gridRegistration visible false.
-           modify screenRegistration-la-edit visible false
-           modify window-handle gradient-color-1 RGB x#FFFFFF
-           modify window-handle gradient-color-2 RGB x#cecedc
-          
-           modify window-handle gradient-orientation 5
-           
-           modify screenRegistration-la-way VALUE 
-                  "CADASTRO DE PRODUTOS"
-           
-           display label upon screenRegistration                                 
-           line 12 , col 21,4 , lines 1, size 5 cells   
-           foreground-color RGB x#003263 
-           transparent              
-           title "Código" 
-           
-           display entry-field upon screenRegistration
-           line 14,5 ,col 21,4, lines 1,5 ,size 14 cells
-           background-color RGB x#ffffff
-           border-color RGB x#cecedc
-           foreground-color rgb x#444444
-           max-text 15
-           UPPER
-           handle handleInputCod .
-          
-           display label upon screenRegistration                                 
-           line 12 , col 40, lines 1, size 5 cells   
-           foreground-color RGB x#003263
-           transparent
-           title "Nome"
-           
-           display entry-field upon screenRegistration
-           line 14,5 ,col 40, lines 1,5,size 45 cells
-           background-color RGB x#ffffff
-           border-color RGB x#cecedc
-           *>background-color RGB x#cecedc
-           foreground-color rgb x#444444
-           max-text 50
-           UPPER
-           handle handleInputNam .
-          
-           *>linha 20
-           display label upon screenRegistration                                 
-           line 20 , col 21,4, lines 1, size 5 cells   
-           foreground-color RGB x#003263
-           transparent
-           title "Preço"
-           
-           display entry-field upon screenRegistration
-           line 22,5 ,col 21,4, lines 1,5 ,size 14 cells
-           *>background-color RGB x#cecedc
-           background-color RGB x#ffffff
-           border-color RGB x#cecedc
-           foreground-color rgb x#444444
-           max-text 10
-           hint 
-          "Para centavos, especifique o valor após a vírgula Ex.: 10,88"
-           handle handleInputPri .
-           
-           display label upon screenRegistration                                 
-           line 20 , col 40, lines 1, size 10 cells   
-           foreground-color RGB x#003263
-           transparent
-           title "Quantidade"
-           
-           display entry-field upon screenRegistration
-           line 22,5 ,col 40, lines 1,5 ,size 14 cells
-           background-color RGB x#ffffff
-           border-color RGB x#cecedc
-           border-width 5,0
-           foreground-color rgb x#444444
-           max-text 5
-           UPPER 
-           handle handleInputQtd .
-           
-           display label upon screenRegistration                                 
-           line 20 , col 58,6, lines 1, size 7 cells   
-           foreground-color RGB x#003263
-           transparent
-           title "Categoria"
-           
-           display combo-box upon screenRegistration
-           line 22,5 ,col 58,6 ,size 26,6 cells
-           background-color RGB x#ffffff
-           foreground-color rgb x#444444
-           UPPER
-           item-height 1,85
-           item-to-add "alimentos"
-           item-to-add "audio e vídeo"
-           item-to-add "apicultura"
-           item-to-add "automotivo"
-           item-to-add "bebês"
-           item-to-add "bebidas"
-           item-to-add "beleza"
-           item-to-add "brinquedos"
-           item-to-add "carnes"
-           item-to-add "celulares"
-           item-to-add "computadores"
-           item-to-add "cozinha"
-           item-to-add "derivados"
-           item-to-add "eletrônicos"
-           item-to-add "ervas"
-           item-to-add "esportes"
-           item-to-add "ferramentas"
-           item-to-add "flores e plantas ornamentais"
-           item-to-add "frutas"
-           item-to-add "games"
-           item-to-add "grãos"
-           item-to-add "hortículas"
-           item-to-add "informática"
-           item-to-add "jardinagem"
-           item-to-add "lacticínios"
-           item-to-add "oleaginosas"
-           item-to-add "orgânicos"
-           item-to-add "papelaria"
-           item-to-add "peixes e frutos do mar"
-           item-to-add "vegetais"
-           lines 40
-           upper
-           no-box
-           drop-list 
-           handle handleInputCat .
-           
-           *>linha 28
-           display label upon screenRegistration                                 
-           line 28 , col 21,4 , lines 1, size 8 cells   
-           foreground-color RGB x#003263 
-           transparent              
-           title "Descrição"
-           
-           display entry-field upon screenRegistration
-           line 30,5 ,col 21,4, lines 1,5 ,size 64 cells
-           background-color RGB x#ffffff
-           border-color RGB x#cecedc
-           border-width 5,0
-           foreground-color rgb x#444444
-           max-text 300
-           UPPER 
-           handle handleInputDes.
-           
-           *>linha 36
-           display label upon screenRegistration                                 
-           line 36 , col 21,4 , lines 1, size 14 cells   
-           foreground-color RGB x#003263 
-           transparent              
-           title "URL da Imagem"
-           
-           display entry-field upon screenRegistration
-           line 38,5 ,col 21,4, lines 1,5 ,size 64 cells
-           background-color RGB x#ffffff
-           border-color RGB x#cecedc
-           border-width 5,0
-           foreground-color rgb x#444444
-           max-text 300
-           hint 
-          "Atenção para as letras minúsculas e MAIÚSCULAS!" 
-           handle handleInputURL .
-           
-           *>linha 44
-           display push-button upon screenRegistration                                 
-           line 46 , col 75,5 , lines 1,5, size 10 cells   
-           foreground-color RGB x#ffffff
-           background-color rgb x#7bb35d
-           flat              
-           title "SALVAR"
-           title-position 2
-           exception-value 200
-           handle handleSaveRegister.
-           
-           display push-button upon screenRegistration                                 
-           line 46 , col 60 , lines 1,5, size 10 cells   
-           foreground-color RGB x#ffffff
-           background-color rgb x#5a6268
-           flat              
-           title "CANCELAR"
-           title-position 2
-           exception-value 300
-           handle handleCancelRegister.
-           
-           inquire handleInputCod id in control-id
-           move 4 to accept-control.
-           .
-       
-       visibleComponents.
-           modify handleInputCod visible true 
-           modify handleInputNam visible true
-           modify handleInputDes visible true
-           modify handleInputCat visible true
-           modify handleInputPri visible true
-           modify handleInputURL visible true
-           modify handleInputQtd visible true
-           modify handleSaveRegister visible true
-           modify handleCancelRegister visible true
-           .
-       
-       invisibleComponents.
-           modify handleInputCod visible false 
-           modify handleInputNam visible false
-           modify handleInputDes visible false
-           modify handleInputCat visible false
-           modify handleInputPri visible false
-           modify handleInputURL visible false
-           modify handleInputQtd visible false
-           modify handleSaveRegister visible false
-           modify handleCancelRegister visible false
-           .
-           
-       inquireData.
-           inquire handleInputCod value productCode 
-           inquire handleInputNam value productName 
-           inquire handleInputDes value productDescription 
-           inquire handleInputPri value productPrice 
-           inquire handleInputQtd value productQuantity
-           inquire handleInputCat value productCategory  
-           inquire handleInputURL value productURL
-           .
-           
-      *limpar
-       clearFields.
-           modify handleInputCod VALUE ""
-           modify handleInputNam VALUE ""
-           modify handleInputPri VALUE ""
-           modify handleInputQtd VALUE ""
-           modify handleInputCat VALUE ""
-           modify handleInputDes VALUE ""
-           modify handleInputURL VALUE ""
-           initialize tblProductRec   
-           perform screenRegistration-aft-init-data
-           inquire handleInputCod ID IN control-id 
-           move 4 to accept-control
-           .
-           
-      *codigo ja em uso    
-       handleInputCod-aft-proc.
-      *     read product
-      *       if fsTblProduct = "00" and wrk-edit = 0
-      *           display message 'Código já registrado, por favor, '
-      *                           'tente outro código...'
-      *           before time 250
-      *           inquire handleInputCod id in control-id 
-      *           move 4 to accept-control 
-           display message "EM USO" 
-           .
-     
-           

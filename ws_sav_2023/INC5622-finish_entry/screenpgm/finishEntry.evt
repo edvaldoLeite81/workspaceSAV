@@ -1,0 +1,22 @@
+      *finishEntry.evt is generated from W:\SAV\ws_sav_2023\INC5622-finish_entry\screen\finishEntry.isp
+       screen-1-gr-1-evt-proc.
+           evaluate event-type
+           when msg-finish-entry
+              perform screen-1-gr-1-evt-msg-finish-entry
+           when other
+           end-evaluate
+           .
+      *start event editor code
+
+       screen-1-gr-1-evt-msg-finish-entry.
+           inquire screen-1-gr-1 NUM-ROWS wrk-row
+           inquire screen-1-gr-1 CURSOR-Y wrk-y
+             if wrk-y < wrk-row
+               add 1 to wrk-y
+               modify screen-1-gr-1 CURSOR-Y wrk-y 
+             else
+               display message "Essa é a última linha"
+               before time 250
+             end-if
+           .
+      *end event editor code

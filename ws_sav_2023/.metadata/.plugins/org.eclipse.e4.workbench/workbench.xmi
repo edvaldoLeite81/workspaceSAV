@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_TDPuQWR_Ee69bsZ2yV6yZA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_TDZfQGR_Ee69bsZ2yV6yZA" bindingContexts="_TDZfSWR_Ee69bsZ2yV6yZA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.prd&quot; tooltip=&quot;screenHybrid/screenpgm/hybrid.prd&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/screenpgm/hybrid.prd&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.cbl&quot; tooltip=&quot;screenHybrid/source/hybrid.cbl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/source/hybrid.cbl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;iscobolscreenpainter.MultipageScreenSectionEditor&quot; name=&quot;hybrid.isp&quot; tooltip=&quot;screenHybrid/screen/hybrid.isp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/screen/hybrid.isp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.scr&quot; tooltip=&quot;screenHybrid/screenpgm/hybrid.scr&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/screenpgm/hybrid.scr&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;iscobolscreenpainter.MultipageScreenSectionEditor&quot; name=&quot;CRECX1.isp&quot; tooltip=&quot;savReport/screen/CRECX1.isp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/savReport/screen/CRECX1.isp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;iscobolscreenpainter.MultipageScreenSectionEditor&quot; name=&quot;finishEntry.isp&quot; tooltip=&quot;INC5622-finish_entry/screen/finishEntry.isp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/INC5622-finish_entry/screen/finishEntry.isp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.prd&quot; tooltip=&quot;screenHybrid/screenpgm/hybrid.prd&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/screenpgm/hybrid.prd&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.cbl&quot; tooltip=&quot;screenHybrid/source/hybrid.cbl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/source/hybrid.cbl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;iscobolscreenpainter.MultipageScreenSectionEditor&quot; name=&quot;hybrid.isp&quot; tooltip=&quot;screenHybrid/screen/hybrid.isp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/screen/hybrid.isp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.scr&quot; tooltip=&quot;screenHybrid/screenpgm/hybrid.scr&quot;>&#xD;&#xA;&lt;persistable path=&quot;/screenHybrid/screenpgm/hybrid.scr&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;iscobolscreenpainter.MultipageScreenSectionEditor&quot; name=&quot;CRECX1.isp&quot; tooltip=&quot;savReport/screen/CRECX1.isp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/savReport/screen/CRECX1.isp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_TDZfQGR_Ee69bsZ2yV6yZA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_Vd7A8mR_Ee69bsZ2yV6yZA" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -83,7 +83,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiKWR_Ee69bsZ2yV6yZA" containerData="8000" selectedElement="_VkqiKmR_Ee69bsZ2yV6yZA" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiKWR_Ee69bsZ2yV6yZA" containerData="8000" selectedElement="_VkqiOWR_Ee69bsZ2yV6yZA" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_VkqiKmR_Ee69bsZ2yV6yZA" containerData="6862" selectedElement="_VkqiK2R_Ee69bsZ2yV6yZA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_VkqiK2R_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_VkRgkGR_Ee69bsZ2yV6yZA"/>
                 <children xsi:type="basic:PartStack" xmi:id="_VkqiLGR_Ee69bsZ2yV6yZA" elementId="bottom" containerData="2500" selectedElement="_VkqiLmR_Ee69bsZ2yV6yZA">
@@ -149,6 +149,7 @@
                   </children>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_VkqiPWR_Ee69bsZ2yV6yZA" elementId="bottomRight" containerData="6000" selectedElement="_VkqiPmR_Ee69bsZ2yV6yZA">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_VkqiPmR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.views.PropertySheet" ref="_VkdGxGR_Ee69bsZ2yV6yZA" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -346,29 +347,14 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_VkRgkGR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.editorss" selectedElement="_VkRgkWR_Ee69bsZ2yV6yZA">
-      <children xsi:type="basic:PartStack" xmi:id="_VkRgkWR_Ee69bsZ2yV6yZA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_4qAIkGVNEe668frAd0XgjA">
+      <children xsi:type="basic:PartStack" xmi:id="_VkRgkWR_Ee69bsZ2yV6yZA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_B2aa0G2_Ee6beabpBMUxGg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_4qAIkGVNEe668frAd0XgjA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="hybrid" iconURI="platform:/plugin/com.iscobol.plugins.screenpainter.IscobolScreenPainter/icons/program.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;iscobolscreenpainter.MultipageScreenSectionEditor&quot; name=&quot;hybrid.isp&quot; partName=&quot;hybrid&quot; title=&quot;hybrid&quot; tooltip=&quot;screenHybrid/screen/hybrid.isp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/screenHybrid/screen/hybrid.isp&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_B2aa0G2_Ee6beabpBMUxGg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="finishEntry" iconURI="platform:/plugin/com.iscobol.plugins.screenpainter.IscobolScreenPainter/icons/program.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;iscobolscreenpainter.MultipageScreenSectionEditor&quot; name=&quot;finishEntry.isp&quot; partName=&quot;finishEntry&quot; title=&quot;finishEntry&quot; tooltip=&quot;INC5622-finish_entry/screen/finishEntry.isp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/INC5622-finish_entry/screen/finishEntry.isp&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>iscobolscreenpainter.MultipageScreenSectionEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_hxB-AGVTEe668frAd0XgjA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="hybrid.cbl" iconURI="platform:/plugin/com.iscobol.plugins.editor.IscobolEditor/icons/source.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.cbl&quot; partName=&quot;hybrid.cbl&quot; title=&quot;hybrid.cbl&quot; tooltip=&quot;screenHybrid/source/hybrid.cbl&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/screenHybrid/source/hybrid.cbl&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2284&quot; selectionTopPixel=&quot;1587&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.iscobol.plugins.editor.IscobolEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_jP0QMGVTEe668frAd0XgjA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="hybrid.prd" iconURI="platform:/plugin/com.iscobol.plugins.editor.IscobolEditor/icons/source.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.iscobol.plugins.editor.IscobolEditor&quot; name=&quot;hybrid.prd&quot; partName=&quot;hybrid.prd&quot; title=&quot;hybrid.prd&quot; tooltip=&quot;screenHybrid/screenpgm/hybrid.prd&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/screenHybrid/screenpgm/hybrid.prd&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1138&quot; selectionTopPixel=&quot;575&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.iscobol.plugins.editor.IscobolEditor</tags>
         </children>
       </children>
     </sharedElements>
@@ -387,7 +373,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_VkaqgGR_Ee69bsZ2yV6yZA" elementId="com.iscobol.plugins.editor.views.IscobolFileView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="File" iconURI="platform:/plugin/com.iscobol.plugins.editor.IscobolEditor/icons/file_list.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.iscobol.plugins.editor.views.FileView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.iscobol.plugins.editor.IscobolEditor"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cbl&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.list&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.def&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cpy&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cl2&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element path=&quot;/screenHybrid&quot;/>&#xD;&#xA;&lt;element path=&quot;/screenHybrid/source&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cbl&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.list&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.def&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cpy&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cl2&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:isCOBOL</tags>
       <menus xmi:id="_ZhQ6kGR_Ee69bsZ2yV6yZA" elementId="com.iscobol.plugins.editor.views.IscobolFileView">
@@ -399,7 +385,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_VkaqgWR_Ee69bsZ2yV6yZA" elementId="com.iscobol.plugins.screenpainter.views.IscobolDataView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Data" iconURI="platform:/plugin/com.iscobol.plugins.screenpainter.IscobolScreenPainter/icons/fdsl_list.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.iscobol.screenpainter.views.DataView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.iscobol.plugins.screenpainter.IscobolScreenPainter"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cbl&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.list&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.def&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cpy&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cl2&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;selection/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cbl&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.list&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.def&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cpy&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;*.cl2&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:isCOBOL</tags>
       <menus xmi:id="_ZjiygGR_Ee69bsZ2yV6yZA" elementId="com.iscobol.plugins.screenpainter.views.IscobolDataView">
@@ -516,6 +502,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_V1fzcGR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.views.PropertySheet">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -649,7 +637,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VfkmwmR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ALkcMGd1Ee6WaLAOOVEeKw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TF8g4GR_Ee69bsZ2yV6yZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DX5ZYG84Ee6P0JmSXR4b1w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TF8g4GR_Ee69bsZ2yV6yZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vfkmw2R_Ee69bsZ2yV6yZA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -677,7 +665,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VfkmymR_Ee69bsZ2yV6yZA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ALkcPWd1Ee6WaLAOOVEeKw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_TF8gdWR_Ee69bsZ2yV6yZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DX9q0G84Ee6P0JmSXR4b1w" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_TF8gdWR_Ee69bsZ2yV6yZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vfkmy2R_Ee69bsZ2yV6yZA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

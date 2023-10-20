@@ -1,12 +1,12 @@
       *begin {iscobol}compiler-directives
       *end {iscobol}compiler-directives
       *begin {iscobol}prog-comment
-      *hybrid.cbl
-      *hybrid.cbl is generated from W:\SAV\ws_sav_2023\screenHybrid\screen\hybrid.isp
+      *finishEntry.cbl
+      *finishEntry.cbl is generated from W:\SAV\ws_sav_2023\INC5622-finish_entry\screen\finishEntry.isp
       *end {iscobol}prog-comment
        identification division.
       *begin {iscobol}progid
-       program-id. hybrid.
+       program-id. finishEntry.
        author. edval.
        remarks.
       *end {iscobol}progid
@@ -40,7 +40,7 @@
        copy "ismsg.def".
       *end {iscobol}is-def
       *begin {iscobol}copy-working
-       copy "hybrid.wrk".
+       copy "finishEntry.wrk".
       *end {iscobol}copy-working
       *begin {iscobol}external-definitions
       *end {iscobol}external-definitions
@@ -53,7 +53,7 @@
       *end {iscobol}copy-linkage
        screen section.
       *begin {iscobol}copy-screen
-       copy "hybrid.scr".
+       copy "finishEntry.scr".
       *end {iscobol}copy-screen
       *begin {iscobol}procedure-using
        procedure division.
@@ -74,8 +74,8 @@
       *end {iscobol}exit-routines
       *begin {iscobol}copy-procedure
        copy "ismsg.cpy".
-       copy "hybrid.prd".
-       copy "hybrid.evt".
+       copy "finishEntry.prd".
+       copy "finishEntry.evt".
       *end {iscobol}copy-procedure
        report-composer section.
       *begin {iscobol}external-copyfiles

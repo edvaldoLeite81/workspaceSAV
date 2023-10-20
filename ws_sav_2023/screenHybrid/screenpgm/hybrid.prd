@@ -1,8 +1,9 @@
-      *hybrid.prd is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\screen\hybrid.isp
+      *hybrid.prd is generated from W:\SAV\ws_sav_2023\screenHybrid\screen\hybrid.isp
        is-initial-routine.
            accept system-information from system-info.
            accept terminal-abilities from terminal-info.
            perform is-load-fonts.
+           perform is-load-bitmaps.
        is-load-fonts.
            initialize wfont-data cambria-18v0.
            move 18 to wfont-size.
@@ -13,12 +14,18 @@
            set wfont-strikeout to false.
            set wfont-fixed-pitch to false.
            call "w$font" using wfont-get-font cambria-18v0 wfont-data.
+       is-load-bitmaps.
+           call "w$bitmap" using wbitmap-load "V:\isCOBOL_WEBC2023R2\web
+      -    "client\free.ico" giving free-ico.
        is-exit-rtn.
            perform is-destroy-fonts.
+           perform is-destroy-bitmaps.
            exit program.
            stop run.
        is-destroy-fonts.
            destroy cambria-18v0.
+       is-destroy-bitmaps.
+           call "w$bitmap" using wbitmap-destroy free-ico.
        is-screen-1-routine.
            perform is-screen-1-scrn
            perform is-screen-1-proc.
@@ -31,6 +38,7 @@
               screen column 91
               size 37.5
               lines 44.4
+              icon free-ico
               cell width 10
               cell height 10
               label-offset 20

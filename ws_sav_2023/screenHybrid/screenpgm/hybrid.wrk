@@ -1,4 +1,4 @@
-      *hybrid.wrk is generated from C:\Users\edval\OneDrive\Área de Trabalho\SAV WORKSPACE\ws-2023\screenHybrid\screen\hybrid.isp
+      *hybrid.wrk is generated from W:\SAV\ws_sav_2023\screenHybrid\screen\hybrid.isp
        77 key-status is special-names crt status pic 9(4) value 0.
           88 exit-pushed value 27.
           88 message-received value 95.
@@ -17,3 +17,4 @@
        77 rbRuntime0 handle of radio-button.
        77 Cambria-12v0 handle of font.
        77 Cambria-18v0 handle of font.
+       77 free-ico pic s9(9) comp-4.
